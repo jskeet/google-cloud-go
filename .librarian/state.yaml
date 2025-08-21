@@ -1,4 +1,4 @@
-image: image=gcr.io/cloud-go-infra/librariangen:latest
+image: docker.io/library/go-test:latest
 libraries:
     - id: secretmanager
       version: 1.15.0
