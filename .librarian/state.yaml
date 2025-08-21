@@ -1,0 +1,16 @@
+image: docker.io/library/go-test:latest
+libraries:
+    - id: apphub
+      version: 0.3.1
+      last_generated_commit: 677d8cb377ca9b60ee4552bfcd607cc01b15a46e
+      apis:
+        - path: google/cloud/apphub/v1
+      source_roots:
+        - apphub
+        - internal/generated/snippets/apphub
+      preserve_regex:
+        - apphub/CHANGES.md
+        - apphub/aliasshim/aliasshim.go
+      remove_regex:
+        - apphub
+        - internal/generated/snippets/apphub
