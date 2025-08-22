@@ -1,22 +1,20 @@
 image: docker.io/library/go-test:latest
 libraries:
-    - id: secretmanager
+    - id: spanner
       version: 1.15.0
       last_generated_commit: 8fe8f9f460fe5dd1df95057659d2520ceca3c9c6
       apis:
-        - path: google/cloud/secretmanager/v1
-          service_config: secretmanager_v1.yaml
-        - path: google/cloud/secretmanager/v1beta2
-          service_config: secretmanager_v1beta2.yaml
+        - path: google/spanner/v1
+        - path: google/spanner/adapter/v1
+        - path: google/spanner/admin/database/v1
+        - path: google/spanner/admin/instance/v1
+        - path: google/spanner/executor/v1
       source_roots:
-        - secretmanager
-        - internal/generated/snippets/secretmanager
+        - spanner
+        - internal/generated/snippets/spanner
       preserve_regex:
-        - secretmanager/CHANGES.md
-        - secretmanager/aliasshim/aliasshim.go
-        - secretmanager/apiv1/iam.go
-        - secretmanager/apiv1/iam_example_test.go
+        - spanner/CHANGES.md
+        - spanner/aliasshim/aliasshim.go
       remove_regex:
-        - secretmanager
-        - internal/generated/snippets/secretmanager
-
+        - spanner
+        - internal/generated/snippets/spanner
