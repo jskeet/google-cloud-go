@@ -2,19 +2,31 @@ image: docker.io/library/go-test:latest
 libraries:
     - id: spanner
       version: 1.15.0
-      last_generated_commit: 8fe8f9f460fe5dd1df95057659d2520ceca3c9c6
+      last_generated_commit: 677d8cb377ca9b60ee4552bfcd607cc01b15a46e
       apis:
         - path: google/spanner/v1
+          service_config: spanner.yaml
         - path: google/spanner/adapter/v1
+          service_config: spanner.yaml
         - path: google/spanner/admin/database/v1
+          service_config: spanner.yaml
         - path: google/spanner/admin/instance/v1
+          service_config: spanner.yaml
         - path: google/spanner/executor/v1
+          service_config: spanner_cloud_executor.yaml
       source_roots:
         - spanner
         - internal/generated/snippets/spanner
       preserve_regex:
-        - spanner/CHANGES.md
-        - spanner/aliasshim/aliasshim.go
+        - 'spanner/CHANGES\.md'
+        - 'spanner/aliasshim/aliasshim\.go'
+        - 'spanner/[^/]*\.go'
+        - spanner/benchmarks
+        - spanner/internal
+        - spanner/kokoro
+        - spanner/spannertest
+        - spanner/test
+        - spanner/testdata
       remove_regex:
         - spanner
         - internal/generated/snippets/spanner
