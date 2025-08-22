@@ -18,9 +18,10 @@ libraries:
         - spanner
         - internal/generated/snippets/spanner
       preserve_regex:
-        - 'spanner/CHANGES\.md'
-        - 'spanner/aliasshim/aliasshim\.go'
-        - 'spanner/[^/]*\.go'
+        - spanner/CHANGES\.md
+        - spanner/aliasshim/aliasshim\.go
+        - spanner/[^/]*\.go
+        - spanner/emulator_test.sh
         - spanner/benchmarks
         - spanner/internal
         - spanner/kokoro
@@ -28,6 +29,7 @@ libraries:
         - spanner/spansql
         - spanner/test
         - spanner/testdata
+        # Handwritten admin/database/v1 code
         - spanner/admin/database/apiv1/backup.go
         - spanner/admin/database/apiv1/backup_test.go
         - spanner/admin/database/apiv1/database.go
@@ -36,8 +38,13 @@ libraries:
         - spanner/admin/database/apiv1/mock_test.go
         - spanner/admin/database/apiv1/path_funcs.go
         - spanner/admin/database/apiv1/spanner_client_options.go
+        # Handwritten admin/instance/v1 code
         - spanner/admin/instance/apiv1/init.go
         - spanner/admin/instance/apiv1/path_funcs.go
+        # Handwritten v1 code
+        - spanner/apiv1/init.go
+        - spanner/apiv1/path_funcs.go
+        - spanner/apiv1/spanner_client_options.go
       remove_regex:
         - spanner
         - internal/generated/snippets/spanner
