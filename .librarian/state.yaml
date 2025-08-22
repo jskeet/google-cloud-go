@@ -23,7 +23,8 @@ libraries:
         - spanner/[^/]*\.go
         - spanner/emulator_test.sh
         - spanner/benchmarks
-        - spanner/internal
+        - spanner/internal/benchwrapper
+        - spanner/internal/testutil
         - spanner/kokoro
         - spanner/spannertest
         - spanner/spansql
