@@ -42,7 +42,7 @@ libraries:
         - spanner/admin/instance/apiv1/init.go
         - spanner/admin/instance/apiv1/path_funcs.go
         # Handwritten v1 code
-        - spanner/apiv1/init.go
+        - spanner/apiv1/info.go
         - spanner/apiv1/path_funcs.go
         - spanner/apiv1/spanner_client_options.go
       remove_regex:
