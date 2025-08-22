@@ -1,7 +1,7 @@
 image: docker.io/library/go-test:latest
 libraries:
     - id: spanner
-      version: 1.15.0
+      version: 1.84.1
       last_generated_commit: 677d8cb377ca9b60ee4552bfcd607cc01b15a46e
       apis:
         - path: google/spanner/v1
@@ -25,8 +25,19 @@ libraries:
         - spanner/internal
         - spanner/kokoro
         - spanner/spannertest
+        - spanner/spansql
         - spanner/test
         - spanner/testdata
+        - spanner/admin/database/apiv1/backup.go
+        - spanner/admin/database/apiv1/backup_test.go
+        - spanner/admin/database/apiv1/database.go
+        - spanner/admin/database/apiv1/database_test.go
+        - spanner/admin/database/apiv1/init.go
+        - spanner/admin/database/apiv1/mock_test.go
+        - spanner/admin/database/apiv1/path_funcs.go
+        - spanner/admin/database/apiv1/spanner_client_options.go
+        - spanner/admin/instance/apiv1/init.go
+        - spanner/admin/instance/apiv1/path_funcs.go
       remove_regex:
         - spanner
         - internal/generated/snippets/spanner
