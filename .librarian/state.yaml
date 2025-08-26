@@ -6,6 +6,8 @@ libraries:
       apis:
         - path: google/datastore/admin/v1
           service_config: ""
+        - path: google/datastore/v1
+          service_config: ""
       source_roots:
         - datastore
         - internal/generated/snippets/datastore
