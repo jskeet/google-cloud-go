@@ -2629,27 +2629,6 @@ libraries:
         - gkemulticloud/apiv1/gapic_metadata\.json
         - gkemulticloud/apiv1/helpers\.go
         - gkemulticloud/apiv1/gkemulticloudpb
-    - id: grafeas
-      version: 0.3.13
-      last_generated_commit: ""
-      apis: []
-      source_roots:
-        - grafeas
-        - internal/generated/snippets/grafeas
-      preserve_regex: []
-      remove_regex:
-        - grafeas/go\.mod
-        - grafeas/go\.sum
-        - internal/generated/snippets/grafeas
-        - grafeas/apiv1/[^/]*_client\.go
-        - grafeas/apiv1/[^/]*_client_example_go123_test\.go
-        - grafeas/apiv1/[^/]*_client_example_test\.go
-        - grafeas/apiv1/auxiliary\.go
-        - grafeas/apiv1/auxiliary_go123\.go
-        - grafeas/apiv1/doc\.go
-        - grafeas/apiv1/gapic_metadata\.json
-        - grafeas/apiv1/helpers\.go
-        - grafeas/apiv1/grafeaspb
     - id: gsuiteaddons
       version: 1.7.7
       last_generated_commit: ""
