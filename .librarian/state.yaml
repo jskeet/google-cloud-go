@@ -3878,19 +3878,7 @@ libraries:
         - privilegedaccessmanager/apiv1/doc\.go
         - privilegedaccessmanager/apiv1/gapic_metadata\.json
         - privilegedaccessmanager/apiv1/helpers\.go
-        - privilegedaccessmanager/apiv1/privilegedaccessmanagerpb
-    - id: profiler
-      version: 0.4.3
-      last_generated_commit: ""
-      apis: []
-      source_roots:
-        - profiler
-        - internal/generated/snippets/profiler
-      preserve_regex: []
-      remove_regex:
-        - profiler/go\.mod
-        - profiler/go\.sum
-        - internal/generated/snippets/profiler
+        - privilegedaccessmanager/apiv1/privilegedaccessmanagerpbf
     - id: pubsub
       version: 1.50.0
       last_generated_commit: ""
@@ -4970,18 +4958,6 @@ libraries:
         - translate/apiv3/gapic_metadata\.json
         - translate/apiv3/helpers\.go
         - translate/apiv3/translatepb
-    - id: vertexai
-      version: 0.15.0
-      last_generated_commit: ""
-      apis: []
-      source_roots:
-        - vertexai
-        - internal/generated/snippets/vertexai
-      preserve_regex: []
-      remove_regex:
-        - vertexai/go\.mod
-        - vertexai/go\.sum
-        - internal/generated/snippets/vertexai
     - id: video
       version: 1.25.0
       last_generated_commit: ""
