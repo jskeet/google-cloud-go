@@ -22,7 +22,7 @@ libraries:
         - ^accessapproval/apiv1/doc\.go$
         - ^accessapproval/apiv1/gapic_metadata\.json$
         - ^accessapproval/apiv1/helpers\.go$
-        - ^accessapproval/apiv1/accessapprovalpb$
+        - ^accessapproval/apiv1/accessapprovalpb/.*$
     - id: accesscontextmanager
       version: 1.9.6
       last_generated_commit: ""
@@ -45,7 +45,7 @@ libraries:
         - ^accesscontextmanager/apiv1/doc\.go$
         - ^accesscontextmanager/apiv1/gapic_metadata\.json$
         - ^accesscontextmanager/apiv1/helpers\.go$
-        - ^accesscontextmanager/apiv1/accesscontextmanagerpb$
+        - ^accesscontextmanager/apiv1/accesscontextmanagerpb/.*$
     - id: advisorynotifications
       version: 1.5.6
       last_generated_commit: ""
@@ -68,7 +68,7 @@ libraries:
         - ^advisorynotifications/apiv1/doc\.go$
         - ^advisorynotifications/apiv1/gapic_metadata\.json$
         - ^advisorynotifications/apiv1/helpers\.go$
-        - ^advisorynotifications/apiv1/advisorynotificationspb$
+        - ^advisorynotifications/apiv1/advisorynotificationspb/.*$
     - id: ai
       version: 0.12.1
       last_generated_commit: ""
@@ -97,7 +97,7 @@ libraries:
         - ^ai/generativelanguage/apiv1/doc\.go$
         - ^ai/generativelanguage/apiv1/gapic_metadata\.json$
         - ^ai/generativelanguage/apiv1/helpers\.go$
-        - ^ai/generativelanguage/apiv1/generativelanguagepb$
+        - ^ai/generativelanguage/apiv1/generativelanguagepb/.*$
         - ^ai/generativelanguage/apiv1alpha/[^/]*_client\.go$
         - ^ai/generativelanguage/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^ai/generativelanguage/apiv1alpha/[^/]*_client_example_test\.go$
@@ -106,7 +106,7 @@ libraries:
         - ^ai/generativelanguage/apiv1alpha/doc\.go$
         - ^ai/generativelanguage/apiv1alpha/gapic_metadata\.json$
         - ^ai/generativelanguage/apiv1alpha/helpers\.go$
-        - ^ai/generativelanguage/apiv1alpha/generativelanguagepb$
+        - ^ai/generativelanguage/apiv1alpha/generativelanguagepb/.*$
         - ^ai/generativelanguage/apiv1beta/[^/]*_client\.go$
         - ^ai/generativelanguage/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^ai/generativelanguage/apiv1beta/[^/]*_client_example_test\.go$
@@ -115,7 +115,7 @@ libraries:
         - ^ai/generativelanguage/apiv1beta/doc\.go$
         - ^ai/generativelanguage/apiv1beta/gapic_metadata\.json$
         - ^ai/generativelanguage/apiv1beta/helpers\.go$
-        - ^ai/generativelanguage/apiv1beta/generativelanguagepb$
+        - ^ai/generativelanguage/apiv1beta/generativelanguagepb/.*$
         - ^ai/generativelanguage/apiv1beta2/[^/]*_client\.go$
         - ^ai/generativelanguage/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^ai/generativelanguage/apiv1beta2/[^/]*_client_example_test\.go$
@@ -124,7 +124,7 @@ libraries:
         - ^ai/generativelanguage/apiv1beta2/doc\.go$
         - ^ai/generativelanguage/apiv1beta2/gapic_metadata\.json$
         - ^ai/generativelanguage/apiv1beta2/helpers\.go$
-        - ^ai/generativelanguage/apiv1beta2/generativelanguagepb$
+        - ^ai/generativelanguage/apiv1beta2/generativelanguagepb/.*$
     - id: aiplatform
       version: 1.99.0
       last_generated_commit: ""
@@ -149,7 +149,7 @@ libraries:
         - ^aiplatform/apiv1/doc\.go$
         - ^aiplatform/apiv1/gapic_metadata\.json$
         - ^aiplatform/apiv1/helpers\.go$
-        - ^aiplatform/apiv1/aiplatformpb$
+        - ^aiplatform/apiv1/aiplatformpb/.*$
         - ^aiplatform/apiv1beta1/[^/]*_client\.go$
         - ^aiplatform/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^aiplatform/apiv1beta1/[^/]*_client_example_test\.go$
@@ -158,7 +158,7 @@ libraries:
         - ^aiplatform/apiv1beta1/doc\.go$
         - ^aiplatform/apiv1beta1/gapic_metadata\.json$
         - ^aiplatform/apiv1beta1/helpers\.go$
-        - ^aiplatform/apiv1beta1/aiplatformpb$
+        - ^aiplatform/apiv1beta1/aiplatformpb/.*$
     - id: alloydb
       version: 1.18.0
       last_generated_commit: ""
@@ -191,7 +191,7 @@ libraries:
         - ^alloydb/apiv1/doc\.go$
         - ^alloydb/apiv1/gapic_metadata\.json$
         - ^alloydb/apiv1/helpers\.go$
-        - ^alloydb/apiv1/alloydbpb$
+        - ^alloydb/apiv1/alloydbpb/.*$
         - ^alloydb/apiv1alpha/[^/]*_client\.go$
         - ^alloydb/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^alloydb/apiv1alpha/[^/]*_client_example_test\.go$
@@ -200,7 +200,7 @@ libraries:
         - ^alloydb/apiv1alpha/doc\.go$
         - ^alloydb/apiv1alpha/gapic_metadata\.json$
         - ^alloydb/apiv1alpha/helpers\.go$
-        - ^alloydb/apiv1alpha/alloydbpb$
+        - ^alloydb/apiv1alpha/alloydbpb/.*$
         - ^alloydb/apiv1beta/[^/]*_client\.go$
         - ^alloydb/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^alloydb/apiv1beta/[^/]*_client_example_test\.go$
@@ -209,7 +209,7 @@ libraries:
         - ^alloydb/apiv1beta/doc\.go$
         - ^alloydb/apiv1beta/gapic_metadata\.json$
         - ^alloydb/apiv1beta/helpers\.go$
-        - ^alloydb/apiv1beta/alloydbpb$
+        - ^alloydb/apiv1beta/alloydbpb/.*$
         - ^alloydb/connectors/apiv1/[^/]*_client\.go$
         - ^alloydb/connectors/apiv1/[^/]*_client_example_go123_test\.go$
         - ^alloydb/connectors/apiv1/[^/]*_client_example_test\.go$
@@ -218,7 +218,7 @@ libraries:
         - ^alloydb/connectors/apiv1/doc\.go$
         - ^alloydb/connectors/apiv1/gapic_metadata\.json$
         - ^alloydb/connectors/apiv1/helpers\.go$
-        - ^alloydb/connectors/apiv1/connectorspb$
+        - ^alloydb/connectors/apiv1/connectorspb/.*$
         - ^alloydb/connectors/apiv1alpha/[^/]*_client\.go$
         - ^alloydb/connectors/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^alloydb/connectors/apiv1alpha/[^/]*_client_example_test\.go$
@@ -227,7 +227,7 @@ libraries:
         - ^alloydb/connectors/apiv1alpha/doc\.go$
         - ^alloydb/connectors/apiv1alpha/gapic_metadata\.json$
         - ^alloydb/connectors/apiv1alpha/helpers\.go$
-        - ^alloydb/connectors/apiv1alpha/connectorspb$
+        - ^alloydb/connectors/apiv1alpha/connectorspb/.*$
         - ^alloydb/connectors/apiv1beta/[^/]*_client\.go$
         - ^alloydb/connectors/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^alloydb/connectors/apiv1beta/[^/]*_client_example_test\.go$
@@ -236,7 +236,7 @@ libraries:
         - ^alloydb/connectors/apiv1beta/doc\.go$
         - ^alloydb/connectors/apiv1beta/gapic_metadata\.json$
         - ^alloydb/connectors/apiv1beta/helpers\.go$
-        - ^alloydb/connectors/apiv1beta/connectorspb$
+        - ^alloydb/connectors/apiv1beta/connectorspb/.*$
     - id: analytics
       version: 0.29.0
       last_generated_commit: ""
@@ -259,7 +259,7 @@ libraries:
         - ^analytics/admin/apiv1alpha/doc\.go$
         - ^analytics/admin/apiv1alpha/gapic_metadata\.json$
         - ^analytics/admin/apiv1alpha/helpers\.go$
-        - ^analytics/admin/apiv1alpha/adminpb$
+        - ^analytics/admin/apiv1alpha/adminpb/.*$
     - id: apigateway
       version: 1.7.7
       last_generated_commit: ""
@@ -282,7 +282,7 @@ libraries:
         - ^apigateway/apiv1/doc\.go$
         - ^apigateway/apiv1/gapic_metadata\.json$
         - ^apigateway/apiv1/helpers\.go$
-        - ^apigateway/apiv1/apigatewaypb$
+        - ^apigateway/apiv1/apigatewaypb/.*$
     - id: apigeeconnect
       version: 1.7.7
       last_generated_commit: ""
@@ -305,7 +305,7 @@ libraries:
         - ^apigeeconnect/apiv1/doc\.go$
         - ^apigeeconnect/apiv1/gapic_metadata\.json$
         - ^apigeeconnect/apiv1/helpers\.go$
-        - ^apigeeconnect/apiv1/apigeeconnectpb$
+        - ^apigeeconnect/apiv1/apigeeconnectpb/.*$
     - id: apigeeregistry
       version: 0.9.6
       last_generated_commit: ""
@@ -328,7 +328,7 @@ libraries:
         - ^apigeeregistry/apiv1/doc\.go$
         - ^apigeeregistry/apiv1/gapic_metadata\.json$
         - ^apigeeregistry/apiv1/helpers\.go$
-        - ^apigeeregistry/apiv1/apigeeregistrypb$
+        - ^apigeeregistry/apiv1/apigeeregistrypb/.*$
     - id: apihub
       version: 0.1.5
       last_generated_commit: ""
@@ -351,7 +351,7 @@ libraries:
         - ^apihub/apiv1/doc\.go$
         - ^apihub/apiv1/gapic_metadata\.json$
         - ^apihub/apiv1/helpers\.go$
-        - ^apihub/apiv1/apihubpb$
+        - ^apihub/apiv1/apihubpb/.*$
     - id: apikeys
       version: 1.2.7
       last_generated_commit: ""
@@ -374,7 +374,7 @@ libraries:
         - ^apikeys/apiv2/doc\.go$
         - ^apikeys/apiv2/gapic_metadata\.json$
         - ^apikeys/apiv2/helpers\.go$
-        - ^apikeys/apiv2/apikeyspb$
+        - ^apikeys/apiv2/apikeyspb/.*$
     - id: appengine
       version: 1.9.7
       last_generated_commit: ""
@@ -397,7 +397,7 @@ libraries:
         - ^appengine/apiv1/doc\.go$
         - ^appengine/apiv1/gapic_metadata\.json$
         - ^appengine/apiv1/helpers\.go$
-        - ^appengine/apiv1/appenginepb$
+        - ^appengine/apiv1/appenginepb/.*$
     - id: apphub
       version: 0.3.1
       last_generated_commit: ""
@@ -420,7 +420,7 @@ libraries:
         - ^apphub/apiv1/doc\.go$
         - ^apphub/apiv1/gapic_metadata\.json$
         - ^apphub/apiv1/helpers\.go$
-        - ^apphub/apiv1/apphubpb$
+        - ^apphub/apiv1/apphubpb/.*$
     - id: apps
       version: 0.8.0
       last_generated_commit: ""
@@ -449,7 +449,7 @@ libraries:
         - ^apps/events/subscriptions/apiv1/doc\.go$
         - ^apps/events/subscriptions/apiv1/gapic_metadata\.json$
         - ^apps/events/subscriptions/apiv1/helpers\.go$
-        - ^apps/events/subscriptions/apiv1/subscriptionspb$
+        - ^apps/events/subscriptions/apiv1/subscriptionspb/.*$
         - ^apps/events/subscriptions/apiv1beta/[^/]*_client\.go$
         - ^apps/events/subscriptions/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^apps/events/subscriptions/apiv1beta/[^/]*_client_example_test\.go$
@@ -458,7 +458,7 @@ libraries:
         - ^apps/events/subscriptions/apiv1beta/doc\.go$
         - ^apps/events/subscriptions/apiv1beta/gapic_metadata\.json$
         - ^apps/events/subscriptions/apiv1beta/helpers\.go$
-        - ^apps/events/subscriptions/apiv1beta/subscriptionspb$
+        - ^apps/events/subscriptions/apiv1beta/subscriptionspb/.*$
         - ^apps/meet/apiv2/[^/]*_client\.go$
         - ^apps/meet/apiv2/[^/]*_client_example_go123_test\.go$
         - ^apps/meet/apiv2/[^/]*_client_example_test\.go$
@@ -467,7 +467,7 @@ libraries:
         - ^apps/meet/apiv2/doc\.go$
         - ^apps/meet/apiv2/gapic_metadata\.json$
         - ^apps/meet/apiv2/helpers\.go$
-        - ^apps/meet/apiv2/meetpb$
+        - ^apps/meet/apiv2/meetpb/.*$
         - ^apps/meet/apiv2beta/[^/]*_client\.go$
         - ^apps/meet/apiv2beta/[^/]*_client_example_go123_test\.go$
         - ^apps/meet/apiv2beta/[^/]*_client_example_test\.go$
@@ -476,7 +476,7 @@ libraries:
         - ^apps/meet/apiv2beta/doc\.go$
         - ^apps/meet/apiv2beta/gapic_metadata\.json$
         - ^apps/meet/apiv2beta/helpers\.go$
-        - ^apps/meet/apiv2beta/meetpb$
+        - ^apps/meet/apiv2beta/meetpb/.*$
     - id: area120
       version: 0.9.7
       last_generated_commit: ""
@@ -499,7 +499,7 @@ libraries:
         - ^area120/tables/apiv1alpha1/doc\.go$
         - ^area120/tables/apiv1alpha1/gapic_metadata\.json$
         - ^area120/tables/apiv1alpha1/helpers\.go$
-        - ^area120/tables/apiv1alpha1/tablespb$
+        - ^area120/tables/apiv1alpha1/tablespb/.*$
     - id: artifactregistry
       version: 1.17.1
       last_generated_commit: ""
@@ -524,7 +524,7 @@ libraries:
         - ^artifactregistry/apiv1/doc\.go$
         - ^artifactregistry/apiv1/gapic_metadata\.json$
         - ^artifactregistry/apiv1/helpers\.go$
-        - ^artifactregistry/apiv1/artifactregistrypb$
+        - ^artifactregistry/apiv1/artifactregistrypb/.*$
         - ^artifactregistry/apiv1beta2/[^/]*_client\.go$
         - ^artifactregistry/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^artifactregistry/apiv1beta2/[^/]*_client_example_test\.go$
@@ -533,7 +533,7 @@ libraries:
         - ^artifactregistry/apiv1beta2/doc\.go$
         - ^artifactregistry/apiv1beta2/gapic_metadata\.json$
         - ^artifactregistry/apiv1beta2/helpers\.go$
-        - ^artifactregistry/apiv1beta2/artifactregistrypb$
+        - ^artifactregistry/apiv1beta2/artifactregistrypb/.*$
     - id: asset
       version: 1.21.1
       last_generated_commit: ""
@@ -560,7 +560,7 @@ libraries:
         - ^asset/apiv1/doc\.go$
         - ^asset/apiv1/gapic_metadata\.json$
         - ^asset/apiv1/helpers\.go$
-        - ^asset/apiv1/assetpb$
+        - ^asset/apiv1/assetpb/.*$
         - ^asset/apiv1p2beta1/[^/]*_client\.go$
         - ^asset/apiv1p2beta1/[^/]*_client_example_go123_test\.go$
         - ^asset/apiv1p2beta1/[^/]*_client_example_test\.go$
@@ -569,7 +569,7 @@ libraries:
         - ^asset/apiv1p2beta1/doc\.go$
         - ^asset/apiv1p2beta1/gapic_metadata\.json$
         - ^asset/apiv1p2beta1/helpers\.go$
-        - ^asset/apiv1p2beta1/assetpb$
+        - ^asset/apiv1p2beta1/assetpb/.*$
         - ^asset/apiv1p5beta1/[^/]*_client\.go$
         - ^asset/apiv1p5beta1/[^/]*_client_example_go123_test\.go$
         - ^asset/apiv1p5beta1/[^/]*_client_example_test\.go$
@@ -578,7 +578,7 @@ libraries:
         - ^asset/apiv1p5beta1/doc\.go$
         - ^asset/apiv1p5beta1/gapic_metadata\.json$
         - ^asset/apiv1p5beta1/helpers\.go$
-        - ^asset/apiv1p5beta1/assetpb$
+        - ^asset/apiv1p5beta1/assetpb/.*$
     - id: assuredworkloads
       version: 1.12.6
       last_generated_commit: ""
@@ -603,7 +603,7 @@ libraries:
         - ^assuredworkloads/apiv1/doc\.go$
         - ^assuredworkloads/apiv1/gapic_metadata\.json$
         - ^assuredworkloads/apiv1/helpers\.go$
-        - ^assuredworkloads/apiv1/assuredworkloadspb$
+        - ^assuredworkloads/apiv1/assuredworkloadspb/.*$
         - ^assuredworkloads/apiv1beta1/[^/]*_client\.go$
         - ^assuredworkloads/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^assuredworkloads/apiv1beta1/[^/]*_client_example_test\.go$
@@ -612,7 +612,7 @@ libraries:
         - ^assuredworkloads/apiv1beta1/doc\.go$
         - ^assuredworkloads/apiv1beta1/gapic_metadata\.json$
         - ^assuredworkloads/apiv1beta1/helpers\.go$
-        - ^assuredworkloads/apiv1beta1/assuredworkloadspb$
+        - ^assuredworkloads/apiv1beta1/assuredworkloadspb/.*$
     - id: automl
       version: 1.14.7
       last_generated_commit: ""
@@ -637,7 +637,7 @@ libraries:
         - ^automl/apiv1/doc\.go$
         - ^automl/apiv1/gapic_metadata\.json$
         - ^automl/apiv1/helpers\.go$
-        - ^automl/apiv1/automlpb$
+        - ^automl/apiv1/automlpb/.*$
         - ^automl/apiv1beta1/[^/]*_client\.go$
         - ^automl/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^automl/apiv1beta1/[^/]*_client_example_test\.go$
@@ -646,7 +646,7 @@ libraries:
         - ^automl/apiv1beta1/doc\.go$
         - ^automl/apiv1beta1/gapic_metadata\.json$
         - ^automl/apiv1beta1/helpers\.go$
-        - ^automl/apiv1beta1/automlpb$
+        - ^automl/apiv1beta1/automlpb/.*$
     - id: backupdr
       version: 1.4.0
       last_generated_commit: ""
@@ -669,7 +669,7 @@ libraries:
         - ^backupdr/apiv1/doc\.go$
         - ^backupdr/apiv1/gapic_metadata\.json$
         - ^backupdr/apiv1/helpers\.go$
-        - ^backupdr/apiv1/backupdrpb$
+        - ^backupdr/apiv1/backupdrpb/.*$
     - id: baremetalsolution
       version: 1.3.6
       last_generated_commit: ""
@@ -692,7 +692,7 @@ libraries:
         - ^baremetalsolution/apiv2/doc\.go$
         - ^baremetalsolution/apiv2/gapic_metadata\.json$
         - ^baremetalsolution/apiv2/helpers\.go$
-        - ^baremetalsolution/apiv2/baremetalsolutionpb$
+        - ^baremetalsolution/apiv2/baremetalsolutionpb/.*$
     - id: batch
       version: 1.12.2
       last_generated_commit: ""
@@ -715,7 +715,7 @@ libraries:
         - ^batch/apiv1/doc\.go$
         - ^batch/apiv1/gapic_metadata\.json$
         - ^batch/apiv1/helpers\.go$
-        - ^batch/apiv1/batchpb$
+        - ^batch/apiv1/batchpb/.*$
     - id: beyondcorp
       version: 1.1.6
       last_generated_commit: ""
@@ -746,7 +746,7 @@ libraries:
         - ^beyondcorp/appconnections/apiv1/doc\.go$
         - ^beyondcorp/appconnections/apiv1/gapic_metadata\.json$
         - ^beyondcorp/appconnections/apiv1/helpers\.go$
-        - ^beyondcorp/appconnections/apiv1/appconnectionspb$
+        - ^beyondcorp/appconnections/apiv1/appconnectionspb/.*$
         - ^beyondcorp/appconnectors/apiv1/[^/]*_client\.go$
         - ^beyondcorp/appconnectors/apiv1/[^/]*_client_example_go123_test\.go$
         - ^beyondcorp/appconnectors/apiv1/[^/]*_client_example_test\.go$
@@ -755,7 +755,7 @@ libraries:
         - ^beyondcorp/appconnectors/apiv1/doc\.go$
         - ^beyondcorp/appconnectors/apiv1/gapic_metadata\.json$
         - ^beyondcorp/appconnectors/apiv1/helpers\.go$
-        - ^beyondcorp/appconnectors/apiv1/appconnectorspb$
+        - ^beyondcorp/appconnectors/apiv1/appconnectorspb/.*$
         - ^beyondcorp/appgateways/apiv1/[^/]*_client\.go$
         - ^beyondcorp/appgateways/apiv1/[^/]*_client_example_go123_test\.go$
         - ^beyondcorp/appgateways/apiv1/[^/]*_client_example_test\.go$
@@ -764,7 +764,7 @@ libraries:
         - ^beyondcorp/appgateways/apiv1/doc\.go$
         - ^beyondcorp/appgateways/apiv1/gapic_metadata\.json$
         - ^beyondcorp/appgateways/apiv1/helpers\.go$
-        - ^beyondcorp/appgateways/apiv1/appgatewayspb$
+        - ^beyondcorp/appgateways/apiv1/appgatewayspb/.*$
         - ^beyondcorp/clientconnectorservices/apiv1/[^/]*_client\.go$
         - ^beyondcorp/clientconnectorservices/apiv1/[^/]*_client_example_go123_test\.go$
         - ^beyondcorp/clientconnectorservices/apiv1/[^/]*_client_example_test\.go$
@@ -773,7 +773,7 @@ libraries:
         - ^beyondcorp/clientconnectorservices/apiv1/doc\.go$
         - ^beyondcorp/clientconnectorservices/apiv1/gapic_metadata\.json$
         - ^beyondcorp/clientconnectorservices/apiv1/helpers\.go$
-        - ^beyondcorp/clientconnectorservices/apiv1/clientconnectorservicespb$
+        - ^beyondcorp/clientconnectorservices/apiv1/clientconnectorservicespb/.*$
         - ^beyondcorp/clientgateways/apiv1/[^/]*_client\.go$
         - ^beyondcorp/clientgateways/apiv1/[^/]*_client_example_go123_test\.go$
         - ^beyondcorp/clientgateways/apiv1/[^/]*_client_example_test\.go$
@@ -782,7 +782,7 @@ libraries:
         - ^beyondcorp/clientgateways/apiv1/doc\.go$
         - ^beyondcorp/clientgateways/apiv1/gapic_metadata\.json$
         - ^beyondcorp/clientgateways/apiv1/helpers\.go$
-        - ^beyondcorp/clientgateways/apiv1/clientgatewayspb$
+        - ^beyondcorp/clientgateways/apiv1/clientgatewayspb/.*$
     - id: bigtable
       version: 1.38.0
       last_generated_commit: ""
@@ -807,7 +807,7 @@ libraries:
         - ^bigtable/admin/apiv2/doc\.go$
         - ^bigtable/admin/apiv2/gapic_metadata\.json$
         - ^bigtable/admin/apiv2/helpers\.go$
-        - ^bigtable/admin/apiv2/adminpb$
+        - ^bigtable/admin/apiv2/adminpb/.*$
         - ^bigtable/apiv2/[^/]*_client\.go$
         - ^bigtable/apiv2/[^/]*_client_example_go123_test\.go$
         - ^bigtable/apiv2/[^/]*_client_example_test\.go$
@@ -816,7 +816,7 @@ libraries:
         - ^bigtable/apiv2/doc\.go$
         - ^bigtable/apiv2/gapic_metadata\.json$
         - ^bigtable/apiv2/helpers\.go$
-        - ^bigtable/apiv2/bigtablepb$
+        - ^bigtable/apiv2/bigtablepb/.*$
     - id: billing
       version: 1.20.4
       last_generated_commit: ""
@@ -843,7 +843,7 @@ libraries:
         - ^billing/apiv1/doc\.go$
         - ^billing/apiv1/gapic_metadata\.json$
         - ^billing/apiv1/helpers\.go$
-        - ^billing/apiv1/billingpb$
+        - ^billing/apiv1/billingpb/.*$
         - ^billing/budgets/apiv1/[^/]*_client\.go$
         - ^billing/budgets/apiv1/[^/]*_client_example_go123_test\.go$
         - ^billing/budgets/apiv1/[^/]*_client_example_test\.go$
@@ -852,7 +852,7 @@ libraries:
         - ^billing/budgets/apiv1/doc\.go$
         - ^billing/budgets/apiv1/gapic_metadata\.json$
         - ^billing/budgets/apiv1/helpers\.go$
-        - ^billing/budgets/apiv1/budgetspb$
+        - ^billing/budgets/apiv1/budgetspb/.*$
         - ^billing/budgets/apiv1beta1/[^/]*_client\.go$
         - ^billing/budgets/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^billing/budgets/apiv1beta1/[^/]*_client_example_test\.go$
@@ -861,7 +861,7 @@ libraries:
         - ^billing/budgets/apiv1beta1/doc\.go$
         - ^billing/budgets/apiv1beta1/gapic_metadata\.json$
         - ^billing/budgets/apiv1beta1/helpers\.go$
-        - ^billing/budgets/apiv1beta1/budgetspb$
+        - ^billing/budgets/apiv1beta1/budgetspb/.*$
     - id: binaryauthorization
       version: 1.9.5
       last_generated_commit: ""
@@ -886,7 +886,7 @@ libraries:
         - ^binaryauthorization/apiv1/doc\.go$
         - ^binaryauthorization/apiv1/gapic_metadata\.json$
         - ^binaryauthorization/apiv1/helpers\.go$
-        - ^binaryauthorization/apiv1/binaryauthorizationpb$
+        - ^binaryauthorization/apiv1/binaryauthorizationpb/.*$
         - ^binaryauthorization/apiv1beta1/[^/]*_client\.go$
         - ^binaryauthorization/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^binaryauthorization/apiv1beta1/[^/]*_client_example_test\.go$
@@ -895,7 +895,7 @@ libraries:
         - ^binaryauthorization/apiv1beta1/doc\.go$
         - ^binaryauthorization/apiv1beta1/gapic_metadata\.json$
         - ^binaryauthorization/apiv1beta1/helpers\.go$
-        - ^binaryauthorization/apiv1beta1/binaryauthorizationpb$
+        - ^binaryauthorization/apiv1beta1/binaryauthorizationpb/.*$
     - id: certificatemanager
       version: 1.9.5
       last_generated_commit: ""
@@ -918,7 +918,7 @@ libraries:
         - ^certificatemanager/apiv1/doc\.go$
         - ^certificatemanager/apiv1/gapic_metadata\.json$
         - ^certificatemanager/apiv1/helpers\.go$
-        - ^certificatemanager/apiv1/certificatemanagerpb$
+        - ^certificatemanager/apiv1/certificatemanagerpb/.*$
     - id: channel
       version: 1.20.0
       last_generated_commit: ""
@@ -941,7 +941,7 @@ libraries:
         - ^channel/apiv1/doc\.go$
         - ^channel/apiv1/gapic_metadata\.json$
         - ^channel/apiv1/helpers\.go$
-        - ^channel/apiv1/channelpb$
+        - ^channel/apiv1/channelpb/.*$
     - id: chat
       version: 0.15.0
       last_generated_commit: ""
@@ -964,7 +964,7 @@ libraries:
         - ^chat/apiv1/doc\.go$
         - ^chat/apiv1/gapic_metadata\.json$
         - ^chat/apiv1/helpers\.go$
-        - ^chat/apiv1/chatpb$
+        - ^chat/apiv1/chatpb/.*$
     - id: chronicle
       version: 0.1.1
       last_generated_commit: ""
@@ -987,7 +987,7 @@ libraries:
         - ^chronicle/apiv1/doc\.go$
         - ^chronicle/apiv1/gapic_metadata\.json$
         - ^chronicle/apiv1/helpers\.go$
-        - ^chronicle/apiv1/chroniclepb$
+        - ^chronicle/apiv1/chroniclepb/.*$
     - id: cloudcontrolspartner
       version: 1.4.0
       last_generated_commit: ""
@@ -1012,7 +1012,7 @@ libraries:
         - ^cloudcontrolspartner/apiv1/doc\.go$
         - ^cloudcontrolspartner/apiv1/gapic_metadata\.json$
         - ^cloudcontrolspartner/apiv1/helpers\.go$
-        - ^cloudcontrolspartner/apiv1/cloudcontrolspartnerpb$
+        - ^cloudcontrolspartner/apiv1/cloudcontrolspartnerpb/.*$
         - ^cloudcontrolspartner/apiv1beta/[^/]*_client\.go$
         - ^cloudcontrolspartner/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^cloudcontrolspartner/apiv1beta/[^/]*_client_example_test\.go$
@@ -1021,7 +1021,7 @@ libraries:
         - ^cloudcontrolspartner/apiv1beta/doc\.go$
         - ^cloudcontrolspartner/apiv1beta/gapic_metadata\.json$
         - ^cloudcontrolspartner/apiv1beta/helpers\.go$
-        - ^cloudcontrolspartner/apiv1beta/cloudcontrolspartnerpb$
+        - ^cloudcontrolspartner/apiv1beta/cloudcontrolspartnerpb/.*$
     - id: clouddms
       version: 1.8.7
       last_generated_commit: ""
@@ -1044,7 +1044,7 @@ libraries:
         - ^clouddms/apiv1/doc\.go$
         - ^clouddms/apiv1/gapic_metadata\.json$
         - ^clouddms/apiv1/helpers\.go$
-        - ^clouddms/apiv1/clouddmspb$
+        - ^clouddms/apiv1/clouddmspb/.*$
     - id: cloudprofiler
       version: 0.4.5
       last_generated_commit: ""
@@ -1067,7 +1067,7 @@ libraries:
         - ^cloudprofiler/apiv2/doc\.go$
         - ^cloudprofiler/apiv2/gapic_metadata\.json$
         - ^cloudprofiler/apiv2/helpers\.go$
-        - ^cloudprofiler/apiv2/cloudprofilerpb$
+        - ^cloudprofiler/apiv2/cloudprofilerpb/.*$
     - id: cloudquotas
       version: 1.4.0
       last_generated_commit: ""
@@ -1092,7 +1092,7 @@ libraries:
         - ^cloudquotas/apiv1/doc\.go$
         - ^cloudquotas/apiv1/gapic_metadata\.json$
         - ^cloudquotas/apiv1/helpers\.go$
-        - ^cloudquotas/apiv1/cloudquotaspb$
+        - ^cloudquotas/apiv1/cloudquotaspb/.*$
         - ^cloudquotas/apiv1beta/[^/]*_client\.go$
         - ^cloudquotas/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^cloudquotas/apiv1beta/[^/]*_client_example_test\.go$
@@ -1101,7 +1101,7 @@ libraries:
         - ^cloudquotas/apiv1beta/doc\.go$
         - ^cloudquotas/apiv1beta/gapic_metadata\.json$
         - ^cloudquotas/apiv1beta/helpers\.go$
-        - ^cloudquotas/apiv1beta/cloudquotaspb$
+        - ^cloudquotas/apiv1beta/cloudquotaspb/.*$
     - id: cloudtasks
       version: 1.13.6
       last_generated_commit: ""
@@ -1128,7 +1128,7 @@ libraries:
         - ^cloudtasks/apiv2/doc\.go$
         - ^cloudtasks/apiv2/gapic_metadata\.json$
         - ^cloudtasks/apiv2/helpers\.go$
-        - ^cloudtasks/apiv2/cloudtaskspb$
+        - ^cloudtasks/apiv2/cloudtaskspb/.*$
         - ^cloudtasks/apiv2beta2/[^/]*_client\.go$
         - ^cloudtasks/apiv2beta2/[^/]*_client_example_go123_test\.go$
         - ^cloudtasks/apiv2beta2/[^/]*_client_example_test\.go$
@@ -1137,7 +1137,7 @@ libraries:
         - ^cloudtasks/apiv2beta2/doc\.go$
         - ^cloudtasks/apiv2beta2/gapic_metadata\.json$
         - ^cloudtasks/apiv2beta2/helpers\.go$
-        - ^cloudtasks/apiv2beta2/cloudtaskspb$
+        - ^cloudtasks/apiv2beta2/cloudtaskspb/.*$
         - ^cloudtasks/apiv2beta3/[^/]*_client\.go$
         - ^cloudtasks/apiv2beta3/[^/]*_client_example_go123_test\.go$
         - ^cloudtasks/apiv2beta3/[^/]*_client_example_test\.go$
@@ -1146,7 +1146,7 @@ libraries:
         - ^cloudtasks/apiv2beta3/doc\.go$
         - ^cloudtasks/apiv2beta3/gapic_metadata\.json$
         - ^cloudtasks/apiv2beta3/helpers\.go$
-        - ^cloudtasks/apiv2beta3/cloudtaskspb$
+        - ^cloudtasks/apiv2beta3/cloudtaskspb/.*$
     - id: commerce
       version: 1.2.5
       last_generated_commit: ""
@@ -1169,7 +1169,7 @@ libraries:
         - ^commerce/consumer/procurement/apiv1/doc\.go$
         - ^commerce/consumer/procurement/apiv1/gapic_metadata\.json$
         - ^commerce/consumer/procurement/apiv1/helpers\.go$
-        - ^commerce/consumer/procurement/apiv1/procurementpb$
+        - ^commerce/consumer/procurement/apiv1/procurementpb/.*$
     - id: confidentialcomputing
       version: 1.9.2
       last_generated_commit: ""
@@ -1194,7 +1194,7 @@ libraries:
         - ^confidentialcomputing/apiv1/doc\.go$
         - ^confidentialcomputing/apiv1/gapic_metadata\.json$
         - ^confidentialcomputing/apiv1/helpers\.go$
-        - ^confidentialcomputing/apiv1/confidentialcomputingpb$
+        - ^confidentialcomputing/apiv1/confidentialcomputingpb/.*$
         - ^confidentialcomputing/apiv1alpha1/[^/]*_client\.go$
         - ^confidentialcomputing/apiv1alpha1/[^/]*_client_example_go123_test\.go$
         - ^confidentialcomputing/apiv1alpha1/[^/]*_client_example_test\.go$
@@ -1203,7 +1203,7 @@ libraries:
         - ^confidentialcomputing/apiv1alpha1/doc\.go$
         - ^confidentialcomputing/apiv1alpha1/gapic_metadata\.json$
         - ^confidentialcomputing/apiv1alpha1/helpers\.go$
-        - ^confidentialcomputing/apiv1alpha1/confidentialcomputingpb$
+        - ^confidentialcomputing/apiv1alpha1/confidentialcomputingpb/.*$
     - id: config
       version: 1.4.0
       last_generated_commit: ""
@@ -1226,7 +1226,7 @@ libraries:
         - ^config/apiv1/doc\.go$
         - ^config/apiv1/gapic_metadata\.json$
         - ^config/apiv1/helpers\.go$
-        - ^config/apiv1/configpb$
+        - ^config/apiv1/configpb/.*$
     - id: configdelivery
       version: 0.1.0
       last_generated_commit: ""
@@ -1251,7 +1251,7 @@ libraries:
         - ^configdelivery/apiv1/doc\.go$
         - ^configdelivery/apiv1/gapic_metadata\.json$
         - ^configdelivery/apiv1/helpers\.go$
-        - ^configdelivery/apiv1/configdeliverypb$
+        - ^configdelivery/apiv1/configdeliverypb/.*$
         - ^configdelivery/apiv1beta/[^/]*_client\.go$
         - ^configdelivery/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^configdelivery/apiv1beta/[^/]*_client_example_test\.go$
@@ -1260,7 +1260,7 @@ libraries:
         - ^configdelivery/apiv1beta/doc\.go$
         - ^configdelivery/apiv1beta/gapic_metadata\.json$
         - ^configdelivery/apiv1beta/helpers\.go$
-        - ^configdelivery/apiv1beta/configdeliverypb$
+        - ^configdelivery/apiv1beta/configdeliverypb/.*$
     - id: contactcenterinsights
       version: 1.17.3
       last_generated_commit: ""
@@ -1283,7 +1283,7 @@ libraries:
         - ^contactcenterinsights/apiv1/doc\.go$
         - ^contactcenterinsights/apiv1/gapic_metadata\.json$
         - ^contactcenterinsights/apiv1/helpers\.go$
-        - ^contactcenterinsights/apiv1/contactcenterinsightspb$
+        - ^contactcenterinsights/apiv1/contactcenterinsightspb/.*$
     - id: container
       version: 1.44.0
       last_generated_commit: ""
@@ -1306,7 +1306,7 @@ libraries:
         - ^container/apiv1/doc\.go$
         - ^container/apiv1/gapic_metadata\.json$
         - ^container/apiv1/helpers\.go$
-        - ^container/apiv1/containerpb$
+        - ^container/apiv1/containerpb/.*$
     - id: containeranalysis
       version: 0.14.1
       last_generated_commit: ""
@@ -1331,7 +1331,7 @@ libraries:
         - ^containeranalysis/apiv1/doc\.go$
         - ^containeranalysis/apiv1/gapic_metadata\.json$
         - ^containeranalysis/apiv1/helpers\.go$
-        - ^containeranalysis/apiv1/containeranalysispb$
+        - ^containeranalysis/apiv1/containeranalysispb/.*$
         - ^containeranalysis/apiv1beta1/[^/]*_client\.go$
         - ^containeranalysis/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^containeranalysis/apiv1beta1/[^/]*_client_example_test\.go$
@@ -1340,7 +1340,7 @@ libraries:
         - ^containeranalysis/apiv1beta1/doc\.go$
         - ^containeranalysis/apiv1beta1/gapic_metadata\.json$
         - ^containeranalysis/apiv1beta1/helpers\.go$
-        - ^containeranalysis/apiv1beta1/containeranalysispb$
+        - ^containeranalysis/apiv1beta1/containeranalysispb/.*$
     - id: datacatalog
       version: 1.26.0
       last_generated_commit: ""
@@ -1367,7 +1367,7 @@ libraries:
         - ^datacatalog/apiv1/doc\.go$
         - ^datacatalog/apiv1/gapic_metadata\.json$
         - ^datacatalog/apiv1/helpers\.go$
-        - ^datacatalog/apiv1/datacatalogpb$
+        - ^datacatalog/apiv1/datacatalogpb/.*$
         - ^datacatalog/apiv1beta1/[^/]*_client\.go$
         - ^datacatalog/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^datacatalog/apiv1beta1/[^/]*_client_example_test\.go$
@@ -1376,7 +1376,7 @@ libraries:
         - ^datacatalog/apiv1beta1/doc\.go$
         - ^datacatalog/apiv1beta1/gapic_metadata\.json$
         - ^datacatalog/apiv1beta1/helpers\.go$
-        - ^datacatalog/apiv1beta1/datacatalogpb$
+        - ^datacatalog/apiv1beta1/datacatalogpb/.*$
         - ^datacatalog/lineage/apiv1/[^/]*_client\.go$
         - ^datacatalog/lineage/apiv1/[^/]*_client_example_go123_test\.go$
         - ^datacatalog/lineage/apiv1/[^/]*_client_example_test\.go$
@@ -1385,7 +1385,7 @@ libraries:
         - ^datacatalog/lineage/apiv1/doc\.go$
         - ^datacatalog/lineage/apiv1/gapic_metadata\.json$
         - ^datacatalog/lineage/apiv1/helpers\.go$
-        - ^datacatalog/lineage/apiv1/lineagepb$
+        - ^datacatalog/lineage/apiv1/lineagepb/.*$
     - id: dataflow
       version: 0.11.0
       last_generated_commit: ""
@@ -1408,7 +1408,7 @@ libraries:
         - ^dataflow/apiv1beta3/doc\.go$
         - ^dataflow/apiv1beta3/gapic_metadata\.json$
         - ^dataflow/apiv1beta3/helpers\.go$
-        - ^dataflow/apiv1beta3/dataflowpb$
+        - ^dataflow/apiv1beta3/dataflowpb/.*$
     - id: dataform
       version: 0.12.0
       last_generated_commit: ""
@@ -1433,7 +1433,7 @@ libraries:
         - ^dataform/apiv1/doc\.go$
         - ^dataform/apiv1/gapic_metadata\.json$
         - ^dataform/apiv1/helpers\.go$
-        - ^dataform/apiv1/dataformpb$
+        - ^dataform/apiv1/dataformpb/.*$
         - ^dataform/apiv1beta1/[^/]*_client\.go$
         - ^dataform/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^dataform/apiv1beta1/[^/]*_client_example_test\.go$
@@ -1442,7 +1442,7 @@ libraries:
         - ^dataform/apiv1beta1/doc\.go$
         - ^dataform/apiv1beta1/gapic_metadata\.json$
         - ^dataform/apiv1beta1/helpers\.go$
-        - ^dataform/apiv1beta1/dataformpb$
+        - ^dataform/apiv1beta1/dataformpb/.*$
     - id: datafusion
       version: 1.8.6
       last_generated_commit: ""
@@ -1465,7 +1465,7 @@ libraries:
         - ^datafusion/apiv1/doc\.go$
         - ^datafusion/apiv1/gapic_metadata\.json$
         - ^datafusion/apiv1/helpers\.go$
-        - ^datafusion/apiv1/datafusionpb$
+        - ^datafusion/apiv1/datafusionpb/.*$
     - id: datalabeling
       version: 0.9.6
       last_generated_commit: ""
@@ -1488,7 +1488,7 @@ libraries:
         - ^datalabeling/apiv1beta1/doc\.go$
         - ^datalabeling/apiv1beta1/gapic_metadata\.json$
         - ^datalabeling/apiv1beta1/helpers\.go$
-        - ^datalabeling/apiv1beta1/datalabelingpb$
+        - ^datalabeling/apiv1beta1/datalabelingpb/.*$
     - id: dataplex
       version: 1.26.0
       last_generated_commit: ""
@@ -1511,7 +1511,7 @@ libraries:
         - ^dataplex/apiv1/doc\.go$
         - ^dataplex/apiv1/gapic_metadata\.json$
         - ^dataplex/apiv1/helpers\.go$
-        - ^dataplex/apiv1/dataplexpb$
+        - ^dataplex/apiv1/dataplexpb/.*$
     - id: dataproc
       version: 2.14.0
       last_generated_commit: ""
@@ -1534,7 +1534,7 @@ libraries:
         - ^dataproc/apiv1/doc\.go$
         - ^dataproc/apiv1/gapic_metadata\.json$
         - ^dataproc/apiv1/helpers\.go$
-        - ^dataproc/apiv1/dataprocpb$
+        - ^dataproc/apiv1/dataprocpb/.*$
     - id: dataqna
       version: 0.9.7
       last_generated_commit: ""
@@ -1557,7 +1557,7 @@ libraries:
         - ^dataqna/apiv1alpha/doc\.go$
         - ^dataqna/apiv1alpha/gapic_metadata\.json$
         - ^dataqna/apiv1alpha/helpers\.go$
-        - ^dataqna/apiv1alpha/dataqnapb$
+        - ^dataqna/apiv1alpha/dataqnapb/.*$
     - id: datastore
       version: 1.20.0
       last_generated_commit: ""
@@ -1582,7 +1582,7 @@ libraries:
         - ^datastore/admin/apiv1/doc\.go$
         - ^datastore/admin/apiv1/gapic_metadata\.json$
         - ^datastore/admin/apiv1/helpers\.go$
-        - ^datastore/admin/apiv1/adminpb$
+        - ^datastore/admin/apiv1/adminpb/.*$
         - ^datastore/apiv1/[^/]*_client\.go$
         - ^datastore/apiv1/[^/]*_client_example_go123_test\.go$
         - ^datastore/apiv1/[^/]*_client_example_test\.go$
@@ -1591,7 +1591,7 @@ libraries:
         - ^datastore/apiv1/doc\.go$
         - ^datastore/apiv1/gapic_metadata\.json$
         - ^datastore/apiv1/helpers\.go$
-        - ^datastore/apiv1/datastorepb$
+        - ^datastore/apiv1/datastorepb/.*$
     - id: datastream
       version: 1.15.0
       last_generated_commit: ""
@@ -1616,7 +1616,7 @@ libraries:
         - ^datastream/apiv1/doc\.go$
         - ^datastream/apiv1/gapic_metadata\.json$
         - ^datastream/apiv1/helpers\.go$
-        - ^datastream/apiv1/datastreampb$
+        - ^datastream/apiv1/datastreampb/.*$
         - ^datastream/apiv1alpha1/[^/]*_client\.go$
         - ^datastream/apiv1alpha1/[^/]*_client_example_go123_test\.go$
         - ^datastream/apiv1alpha1/[^/]*_client_example_test\.go$
@@ -1625,7 +1625,7 @@ libraries:
         - ^datastream/apiv1alpha1/doc\.go$
         - ^datastream/apiv1alpha1/gapic_metadata\.json$
         - ^datastream/apiv1alpha1/helpers\.go$
-        - ^datastream/apiv1alpha1/datastreampb$
+        - ^datastream/apiv1alpha1/datastreampb/.*$
     - id: deploy
       version: 1.27.2
       last_generated_commit: ""
@@ -1648,7 +1648,7 @@ libraries:
         - ^deploy/apiv1/doc\.go$
         - ^deploy/apiv1/gapic_metadata\.json$
         - ^deploy/apiv1/helpers\.go$
-        - ^deploy/apiv1/deploypb$
+        - ^deploy/apiv1/deploypb/.*$
     - id: developerconnect
       version: 0.4.0
       last_generated_commit: ""
@@ -1671,7 +1671,7 @@ libraries:
         - ^developerconnect/apiv1/doc\.go$
         - ^developerconnect/apiv1/gapic_metadata\.json$
         - ^developerconnect/apiv1/helpers\.go$
-        - ^developerconnect/apiv1/developerconnectpb$
+        - ^developerconnect/apiv1/developerconnectpb/.*$
     - id: devicestreaming
       version: 0.1.0
       last_generated_commit: ""
@@ -1694,7 +1694,7 @@ libraries:
         - ^devicestreaming/apiv1/doc\.go$
         - ^devicestreaming/apiv1/gapic_metadata\.json$
         - ^devicestreaming/apiv1/helpers\.go$
-        - ^devicestreaming/apiv1/devicestreamingpb$
+        - ^devicestreaming/apiv1/devicestreamingpb/.*$
     - id: dialogflow
       version: 1.69.0
       last_generated_commit: ""
@@ -1723,7 +1723,7 @@ libraries:
         - ^dialogflow/apiv2/doc\.go$
         - ^dialogflow/apiv2/gapic_metadata\.json$
         - ^dialogflow/apiv2/helpers\.go$
-        - ^dialogflow/apiv2/dialogflowpb$
+        - ^dialogflow/apiv2/dialogflowpb/.*$
         - ^dialogflow/apiv2beta1/[^/]*_client\.go$
         - ^dialogflow/apiv2beta1/[^/]*_client_example_go123_test\.go$
         - ^dialogflow/apiv2beta1/[^/]*_client_example_test\.go$
@@ -1732,7 +1732,7 @@ libraries:
         - ^dialogflow/apiv2beta1/doc\.go$
         - ^dialogflow/apiv2beta1/gapic_metadata\.json$
         - ^dialogflow/apiv2beta1/helpers\.go$
-        - ^dialogflow/apiv2beta1/dialogflowpb$
+        - ^dialogflow/apiv2beta1/dialogflowpb/.*$
         - ^dialogflow/cx/apiv3/[^/]*_client\.go$
         - ^dialogflow/cx/apiv3/[^/]*_client_example_go123_test\.go$
         - ^dialogflow/cx/apiv3/[^/]*_client_example_test\.go$
@@ -1741,7 +1741,7 @@ libraries:
         - ^dialogflow/cx/apiv3/doc\.go$
         - ^dialogflow/cx/apiv3/gapic_metadata\.json$
         - ^dialogflow/cx/apiv3/helpers\.go$
-        - ^dialogflow/cx/apiv3/cxpb$
+        - ^dialogflow/cx/apiv3/cxpb/.*$
         - ^dialogflow/cx/apiv3beta1/[^/]*_client\.go$
         - ^dialogflow/cx/apiv3beta1/[^/]*_client_example_go123_test\.go$
         - ^dialogflow/cx/apiv3beta1/[^/]*_client_example_test\.go$
@@ -1750,7 +1750,7 @@ libraries:
         - ^dialogflow/cx/apiv3beta1/doc\.go$
         - ^dialogflow/cx/apiv3beta1/gapic_metadata\.json$
         - ^dialogflow/cx/apiv3beta1/helpers\.go$
-        - ^dialogflow/cx/apiv3beta1/cxpb$
+        - ^dialogflow/cx/apiv3beta1/cxpb/.*$
     - id: discoveryengine
       version: 1.20.0
       last_generated_commit: ""
@@ -1777,7 +1777,7 @@ libraries:
         - ^discoveryengine/apiv1/doc\.go$
         - ^discoveryengine/apiv1/gapic_metadata\.json$
         - ^discoveryengine/apiv1/helpers\.go$
-        - ^discoveryengine/apiv1/discoveryenginepb$
+        - ^discoveryengine/apiv1/discoveryenginepb/.*$
         - ^discoveryengine/apiv1alpha/[^/]*_client\.go$
         - ^discoveryengine/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^discoveryengine/apiv1alpha/[^/]*_client_example_test\.go$
@@ -1786,7 +1786,7 @@ libraries:
         - ^discoveryengine/apiv1alpha/doc\.go$
         - ^discoveryengine/apiv1alpha/gapic_metadata\.json$
         - ^discoveryengine/apiv1alpha/helpers\.go$
-        - ^discoveryengine/apiv1alpha/discoveryenginepb$
+        - ^discoveryengine/apiv1alpha/discoveryenginepb/.*$
         - ^discoveryengine/apiv1beta/[^/]*_client\.go$
         - ^discoveryengine/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^discoveryengine/apiv1beta/[^/]*_client_example_test\.go$
@@ -1795,7 +1795,7 @@ libraries:
         - ^discoveryengine/apiv1beta/doc\.go$
         - ^discoveryengine/apiv1beta/gapic_metadata\.json$
         - ^discoveryengine/apiv1beta/helpers\.go$
-        - ^discoveryengine/apiv1beta/discoveryenginepb$
+        - ^discoveryengine/apiv1beta/discoveryenginepb/.*$
     - id: dlp
       version: 1.24.0
       last_generated_commit: ""
@@ -1818,7 +1818,7 @@ libraries:
         - ^dlp/apiv2/doc\.go$
         - ^dlp/apiv2/gapic_metadata\.json$
         - ^dlp/apiv2/helpers\.go$
-        - ^dlp/apiv2/dlppb$
+        - ^dlp/apiv2/dlppb/.*$
     - id: documentai
       version: 1.38.0
       last_generated_commit: ""
@@ -1843,7 +1843,7 @@ libraries:
         - ^documentai/apiv1/doc\.go$
         - ^documentai/apiv1/gapic_metadata\.json$
         - ^documentai/apiv1/helpers\.go$
-        - ^documentai/apiv1/documentaipb$
+        - ^documentai/apiv1/documentaipb/.*$
         - ^documentai/apiv1beta3/[^/]*_client\.go$
         - ^documentai/apiv1beta3/[^/]*_client_example_go123_test\.go$
         - ^documentai/apiv1beta3/[^/]*_client_example_test\.go$
@@ -1852,7 +1852,7 @@ libraries:
         - ^documentai/apiv1beta3/doc\.go$
         - ^documentai/apiv1beta3/gapic_metadata\.json$
         - ^documentai/apiv1beta3/helpers\.go$
-        - ^documentai/apiv1beta3/documentaipb$
+        - ^documentai/apiv1beta3/documentaipb/.*$
     - id: domains
       version: 0.10.6
       last_generated_commit: ""
@@ -1875,7 +1875,7 @@ libraries:
         - ^domains/apiv1beta1/doc\.go$
         - ^domains/apiv1beta1/gapic_metadata\.json$
         - ^domains/apiv1beta1/helpers\.go$
-        - ^domains/apiv1beta1/domainspb$
+        - ^domains/apiv1beta1/domainspb/.*$
     - id: edgecontainer
       version: 1.4.3
       last_generated_commit: ""
@@ -1898,7 +1898,7 @@ libraries:
         - ^edgecontainer/apiv1/doc\.go$
         - ^edgecontainer/apiv1/gapic_metadata\.json$
         - ^edgecontainer/apiv1/helpers\.go$
-        - ^edgecontainer/apiv1/edgecontainerpb$
+        - ^edgecontainer/apiv1/edgecontainerpb/.*$
     - id: edgenetwork
       version: 1.2.6
       last_generated_commit: ""
@@ -1921,7 +1921,7 @@ libraries:
         - ^edgenetwork/apiv1/doc\.go$
         - ^edgenetwork/apiv1/gapic_metadata\.json$
         - ^edgenetwork/apiv1/helpers\.go$
-        - ^edgenetwork/apiv1/edgenetworkpb$
+        - ^edgenetwork/apiv1/edgenetworkpb/.*$
     - id: errorreporting
       version: 0.3.2
       last_generated_commit: ""
@@ -1944,7 +1944,7 @@ libraries:
         - ^errorreporting/apiv1beta1/doc\.go$
         - ^errorreporting/apiv1beta1/gapic_metadata\.json$
         - ^errorreporting/apiv1beta1/helpers\.go$
-        - ^errorreporting/apiv1beta1/errorreportingpb$
+        - ^errorreporting/apiv1beta1/errorreportingpb/.*$
     - id: essentialcontacts
       version: 1.7.6
       last_generated_commit: ""
@@ -1967,7 +1967,7 @@ libraries:
         - ^essentialcontacts/apiv1/doc\.go$
         - ^essentialcontacts/apiv1/gapic_metadata\.json$
         - ^essentialcontacts/apiv1/helpers\.go$
-        - ^essentialcontacts/apiv1/essentialcontactspb$
+        - ^essentialcontacts/apiv1/essentialcontactspb/.*$
     - id: eventarc
       version: 1.15.5
       last_generated_commit: ""
@@ -1992,7 +1992,7 @@ libraries:
         - ^eventarc/apiv1/doc\.go$
         - ^eventarc/apiv1/gapic_metadata\.json$
         - ^eventarc/apiv1/helpers\.go$
-        - ^eventarc/apiv1/eventarcpb$
+        - ^eventarc/apiv1/eventarcpb/.*$
         - ^eventarc/publishing/apiv1/[^/]*_client\.go$
         - ^eventarc/publishing/apiv1/[^/]*_client_example_go123_test\.go$
         - ^eventarc/publishing/apiv1/[^/]*_client_example_test\.go$
@@ -2001,7 +2001,7 @@ libraries:
         - ^eventarc/publishing/apiv1/doc\.go$
         - ^eventarc/publishing/apiv1/gapic_metadata\.json$
         - ^eventarc/publishing/apiv1/helpers\.go$
-        - ^eventarc/publishing/apiv1/publishingpb$
+        - ^eventarc/publishing/apiv1/publishingpb/.*$
     - id: filestore
       version: 1.10.2
       last_generated_commit: ""
@@ -2024,7 +2024,7 @@ libraries:
         - ^filestore/apiv1/doc\.go$
         - ^filestore/apiv1/gapic_metadata\.json$
         - ^filestore/apiv1/helpers\.go$
-        - ^filestore/apiv1/filestorepb$
+        - ^filestore/apiv1/filestorepb/.*$
     - id: financialservices
       version: 0.1.3
       last_generated_commit: ""
@@ -2047,7 +2047,7 @@ libraries:
         - ^financialservices/apiv1/doc\.go$
         - ^financialservices/apiv1/gapic_metadata\.json$
         - ^financialservices/apiv1/helpers\.go$
-        - ^financialservices/apiv1/financialservicespb$
+        - ^financialservices/apiv1/financialservicespb/.*$
     - id: functions
       version: 1.19.6
       last_generated_commit: ""
@@ -2074,7 +2074,7 @@ libraries:
         - ^functions/apiv1/doc\.go$
         - ^functions/apiv1/gapic_metadata\.json$
         - ^functions/apiv1/helpers\.go$
-        - ^functions/apiv1/functionspb$
+        - ^functions/apiv1/functionspb/.*$
         - ^functions/apiv2/[^/]*_client\.go$
         - ^functions/apiv2/[^/]*_client_example_go123_test\.go$
         - ^functions/apiv2/[^/]*_client_example_test\.go$
@@ -2083,7 +2083,7 @@ libraries:
         - ^functions/apiv2/doc\.go$
         - ^functions/apiv2/gapic_metadata\.json$
         - ^functions/apiv2/helpers\.go$
-        - ^functions/apiv2/functionspb$
+        - ^functions/apiv2/functionspb/.*$
         - ^functions/apiv2beta/[^/]*_client\.go$
         - ^functions/apiv2beta/[^/]*_client_example_go123_test\.go$
         - ^functions/apiv2beta/[^/]*_client_example_test\.go$
@@ -2092,7 +2092,7 @@ libraries:
         - ^functions/apiv2beta/doc\.go$
         - ^functions/apiv2beta/gapic_metadata\.json$
         - ^functions/apiv2beta/helpers\.go$
-        - ^functions/apiv2beta/functionspb$
+        - ^functions/apiv2beta/functionspb/.*$
     - id: geminidataanalytics
       version: 0.1.0
       last_generated_commit: ""
@@ -2115,7 +2115,7 @@ libraries:
         - ^geminidataanalytics/apiv1beta/doc\.go$
         - ^geminidataanalytics/apiv1beta/gapic_metadata\.json$
         - ^geminidataanalytics/apiv1beta/helpers\.go$
-        - ^geminidataanalytics/apiv1beta/geminidataanalyticspb$
+        - ^geminidataanalytics/apiv1beta/geminidataanalyticspb/.*$
     - id: gkebackup
       version: 1.8.0
       last_generated_commit: ""
@@ -2138,7 +2138,7 @@ libraries:
         - ^gkebackup/apiv1/doc\.go$
         - ^gkebackup/apiv1/gapic_metadata\.json$
         - ^gkebackup/apiv1/helpers\.go$
-        - ^gkebackup/apiv1/gkebackuppb$
+        - ^gkebackup/apiv1/gkebackuppb/.*$
     - id: gkeconnect
       version: 0.12.4
       last_generated_commit: ""
@@ -2163,7 +2163,7 @@ libraries:
         - ^gkeconnect/gateway/apiv1/doc\.go$
         - ^gkeconnect/gateway/apiv1/gapic_metadata\.json$
         - ^gkeconnect/gateway/apiv1/helpers\.go$
-        - ^gkeconnect/gateway/apiv1/gatewaypb$
+        - ^gkeconnect/gateway/apiv1/gatewaypb/.*$
         - ^gkeconnect/gateway/apiv1beta1/[^/]*_client\.go$
         - ^gkeconnect/gateway/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^gkeconnect/gateway/apiv1beta1/[^/]*_client_example_test\.go$
@@ -2172,7 +2172,7 @@ libraries:
         - ^gkeconnect/gateway/apiv1beta1/doc\.go$
         - ^gkeconnect/gateway/apiv1beta1/gapic_metadata\.json$
         - ^gkeconnect/gateway/apiv1beta1/helpers\.go$
-        - ^gkeconnect/gateway/apiv1beta1/gatewaypb$
+        - ^gkeconnect/gateway/apiv1beta1/gatewaypb/.*$
     - id: gkehub
       version: 0.15.6
       last_generated_commit: ""
@@ -2195,7 +2195,7 @@ libraries:
         - ^gkehub/apiv1beta1/doc\.go$
         - ^gkehub/apiv1beta1/gapic_metadata\.json$
         - ^gkehub/apiv1beta1/helpers\.go$
-        - ^gkehub/apiv1beta1/gkehubpb$
+        - ^gkehub/apiv1beta1/gkehubpb/.*$
     - id: gkemulticloud
       version: 1.5.3
       last_generated_commit: ""
@@ -2218,7 +2218,7 @@ libraries:
         - ^gkemulticloud/apiv1/doc\.go$
         - ^gkemulticloud/apiv1/gapic_metadata\.json$
         - ^gkemulticloud/apiv1/helpers\.go$
-        - ^gkemulticloud/apiv1/gkemulticloudpb$
+        - ^gkemulticloud/apiv1/gkemulticloudpb/.*$
     - id: grafeas
       version: 0.3.13
       last_generated_commit: ""
@@ -2239,7 +2239,7 @@ libraries:
         - ^grafeas/apiv1/doc\.go$
         - ^grafeas/apiv1/gapic_metadata\.json$
         - ^grafeas/apiv1/helpers\.go$
-        - ^grafeas/apiv1/grafeaspb$
+        - ^grafeas/apiv1/grafeaspb/.*$
     - id: gsuiteaddons
       version: 1.7.7
       last_generated_commit: ""
@@ -2262,7 +2262,7 @@ libraries:
         - ^gsuiteaddons/apiv1/doc\.go$
         - ^gsuiteaddons/apiv1/gapic_metadata\.json$
         - ^gsuiteaddons/apiv1/helpers\.go$
-        - ^gsuiteaddons/apiv1/gsuiteaddonspb$
+        - ^gsuiteaddons/apiv1/gsuiteaddonspb/.*$
     - id: iam
       version: 1.5.2
       last_generated_commit: ""
@@ -2293,7 +2293,7 @@ libraries:
         - ^iam/admin/apiv1/doc\.go$
         - ^iam/admin/apiv1/gapic_metadata\.json$
         - ^iam/admin/apiv1/helpers\.go$
-        - ^iam/admin/apiv1/adminpb$
+        - ^iam/admin/apiv1/adminpb/.*$
         - ^iam/apiv1/[^/]*_client\.go$
         - ^iam/apiv1/[^/]*_client_example_go123_test\.go$
         - ^iam/apiv1/[^/]*_client_example_test\.go$
@@ -2302,7 +2302,7 @@ libraries:
         - ^iam/apiv1/doc\.go$
         - ^iam/apiv1/gapic_metadata\.json$
         - ^iam/apiv1/helpers\.go$
-        - ^iam/apiv1/iampb$
+        - ^iam/apiv1/iampb/.*$
         - ^iam/apiv2/[^/]*_client\.go$
         - ^iam/apiv2/[^/]*_client_example_go123_test\.go$
         - ^iam/apiv2/[^/]*_client_example_test\.go$
@@ -2311,7 +2311,7 @@ libraries:
         - ^iam/apiv2/doc\.go$
         - ^iam/apiv2/gapic_metadata\.json$
         - ^iam/apiv2/helpers\.go$
-        - ^iam/apiv2/iampb$
+        - ^iam/apiv2/iampb/.*$
         - ^iam/apiv3/[^/]*_client\.go$
         - ^iam/apiv3/[^/]*_client_example_go123_test\.go$
         - ^iam/apiv3/[^/]*_client_example_test\.go$
@@ -2320,7 +2320,7 @@ libraries:
         - ^iam/apiv3/doc\.go$
         - ^iam/apiv3/gapic_metadata\.json$
         - ^iam/apiv3/helpers\.go$
-        - ^iam/apiv3/iampb$
+        - ^iam/apiv3/iampb/.*$
         - ^iam/apiv3beta/[^/]*_client\.go$
         - ^iam/apiv3beta/[^/]*_client_example_go123_test\.go$
         - ^iam/apiv3beta/[^/]*_client_example_test\.go$
@@ -2329,7 +2329,7 @@ libraries:
         - ^iam/apiv3beta/doc\.go$
         - ^iam/apiv3beta/gapic_metadata\.json$
         - ^iam/apiv3beta/helpers\.go$
-        - ^iam/apiv3beta/iampb$
+        - ^iam/apiv3beta/iampb/.*$
         - ^iam/credentials/apiv1/[^/]*_client\.go$
         - ^iam/credentials/apiv1/[^/]*_client_example_go123_test\.go$
         - ^iam/credentials/apiv1/[^/]*_client_example_test\.go$
@@ -2338,7 +2338,7 @@ libraries:
         - ^iam/credentials/apiv1/doc\.go$
         - ^iam/credentials/apiv1/gapic_metadata\.json$
         - ^iam/credentials/apiv1/helpers\.go$
-        - ^iam/credentials/apiv1/credentialspb$
+        - ^iam/credentials/apiv1/credentialspb/.*$
     - id: iap
       version: 1.11.2
       last_generated_commit: ""
@@ -2361,7 +2361,7 @@ libraries:
         - ^iap/apiv1/doc\.go$
         - ^iap/apiv1/gapic_metadata\.json$
         - ^iap/apiv1/helpers\.go$
-        - ^iap/apiv1/iappb$
+        - ^iap/apiv1/iappb/.*$
     - id: identitytoolkit
       version: 0.2.5
       last_generated_commit: ""
@@ -2384,7 +2384,7 @@ libraries:
         - ^identitytoolkit/apiv2/doc\.go$
         - ^identitytoolkit/apiv2/gapic_metadata\.json$
         - ^identitytoolkit/apiv2/helpers\.go$
-        - ^identitytoolkit/apiv2/identitytoolkitpb$
+        - ^identitytoolkit/apiv2/identitytoolkitpb/.*$
     - id: ids
       version: 1.5.6
       last_generated_commit: ""
@@ -2407,7 +2407,7 @@ libraries:
         - ^ids/apiv1/doc\.go$
         - ^ids/apiv1/gapic_metadata\.json$
         - ^ids/apiv1/helpers\.go$
-        - ^ids/apiv1/idspb$
+        - ^ids/apiv1/idspb/.*$
     - id: iot
       version: 1.8.6
       last_generated_commit: ""
@@ -2430,7 +2430,7 @@ libraries:
         - ^iot/apiv1/doc\.go$
         - ^iot/apiv1/gapic_metadata\.json$
         - ^iot/apiv1/helpers\.go$
-        - ^iot/apiv1/iotpb$
+        - ^iot/apiv1/iotpb/.*$
     - id: kms
       version: 1.22.0
       last_generated_commit: ""
@@ -2455,7 +2455,7 @@ libraries:
         - ^kms/apiv1/doc\.go$
         - ^kms/apiv1/gapic_metadata\.json$
         - ^kms/apiv1/helpers\.go$
-        - ^kms/apiv1/kmspb$
+        - ^kms/apiv1/kmspb/.*$
         - ^kms/inventory/apiv1/[^/]*_client\.go$
         - ^kms/inventory/apiv1/[^/]*_client_example_go123_test\.go$
         - ^kms/inventory/apiv1/[^/]*_client_example_test\.go$
@@ -2464,7 +2464,7 @@ libraries:
         - ^kms/inventory/apiv1/doc\.go$
         - ^kms/inventory/apiv1/gapic_metadata\.json$
         - ^kms/inventory/apiv1/helpers\.go$
-        - ^kms/inventory/apiv1/inventorypb$
+        - ^kms/inventory/apiv1/inventorypb/.*$
     - id: language
       version: 1.14.5
       last_generated_commit: ""
@@ -2491,7 +2491,7 @@ libraries:
         - ^language/apiv1/doc\.go$
         - ^language/apiv1/gapic_metadata\.json$
         - ^language/apiv1/helpers\.go$
-        - ^language/apiv1/languagepb$
+        - ^language/apiv1/languagepb/.*$
         - ^language/apiv1beta2/[^/]*_client\.go$
         - ^language/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^language/apiv1beta2/[^/]*_client_example_test\.go$
@@ -2500,7 +2500,7 @@ libraries:
         - ^language/apiv1beta2/doc\.go$
         - ^language/apiv1beta2/gapic_metadata\.json$
         - ^language/apiv1beta2/helpers\.go$
-        - ^language/apiv1beta2/languagepb$
+        - ^language/apiv1beta2/languagepb/.*$
         - ^language/apiv2/[^/]*_client\.go$
         - ^language/apiv2/[^/]*_client_example_go123_test\.go$
         - ^language/apiv2/[^/]*_client_example_test\.go$
@@ -2509,7 +2509,7 @@ libraries:
         - ^language/apiv2/doc\.go$
         - ^language/apiv2/gapic_metadata\.json$
         - ^language/apiv2/helpers\.go$
-        - ^language/apiv2/languagepb$
+        - ^language/apiv2/languagepb/.*$
     - id: licensemanager
       version: 0.1.0
       last_generated_commit: ""
@@ -2532,7 +2532,7 @@ libraries:
         - ^licensemanager/apiv1/doc\.go$
         - ^licensemanager/apiv1/gapic_metadata\.json$
         - ^licensemanager/apiv1/helpers\.go$
-        - ^licensemanager/apiv1/licensemanagerpb$
+        - ^licensemanager/apiv1/licensemanagerpb/.*$
     - id: lifesciences
       version: 0.10.6
       last_generated_commit: ""
@@ -2555,7 +2555,7 @@ libraries:
         - ^lifesciences/apiv2beta/doc\.go$
         - ^lifesciences/apiv2beta/gapic_metadata\.json$
         - ^lifesciences/apiv2beta/helpers\.go$
-        - ^lifesciences/apiv2beta/lifesciencespb$
+        - ^lifesciences/apiv2beta/lifesciencespb/.*$
     - id: logging
       version: 1.13.0
       last_generated_commit: ""
@@ -2578,7 +2578,7 @@ libraries:
         - ^logging/apiv2/doc\.go$
         - ^logging/apiv2/gapic_metadata\.json$
         - ^logging/apiv2/helpers\.go$
-        - ^logging/apiv2/loggingpb$
+        - ^logging/apiv2/loggingpb/.*$
     - id: lustre
       version: 0.2.0
       last_generated_commit: ""
@@ -2601,7 +2601,7 @@ libraries:
         - ^lustre/apiv1/doc\.go$
         - ^lustre/apiv1/gapic_metadata\.json$
         - ^lustre/apiv1/helpers\.go$
-        - ^lustre/apiv1/lustrepb$
+        - ^lustre/apiv1/lustrepb/.*$
     - id: maintenance
       version: 0.1.1
       last_generated_commit: ""
@@ -2624,7 +2624,7 @@ libraries:
         - ^maintenance/api/apiv1beta/doc\.go$
         - ^maintenance/api/apiv1beta/gapic_metadata\.json$
         - ^maintenance/api/apiv1beta/helpers\.go$
-        - ^maintenance/api/apiv1beta/apipb$
+        - ^maintenance/api/apiv1beta/apipb/.*$
     - id: managedidentities
       version: 1.7.6
       last_generated_commit: ""
@@ -2647,7 +2647,7 @@ libraries:
         - ^managedidentities/apiv1/doc\.go$
         - ^managedidentities/apiv1/gapic_metadata\.json$
         - ^managedidentities/apiv1/helpers\.go$
-        - ^managedidentities/apiv1/managedidentitiespb$
+        - ^managedidentities/apiv1/managedidentitiespb/.*$
     - id: managedkafka
       version: 0.8.0
       last_generated_commit: ""
@@ -2672,7 +2672,7 @@ libraries:
         - ^managedkafka/apiv1/doc\.go$
         - ^managedkafka/apiv1/gapic_metadata\.json$
         - ^managedkafka/apiv1/helpers\.go$
-        - ^managedkafka/apiv1/managedkafkapb$
+        - ^managedkafka/apiv1/managedkafkapb/.*$
         - ^managedkafka/schemaregistry/apiv1/[^/]*_client\.go$
         - ^managedkafka/schemaregistry/apiv1/[^/]*_client_example_go123_test\.go$
         - ^managedkafka/schemaregistry/apiv1/[^/]*_client_example_test\.go$
@@ -2681,7 +2681,7 @@ libraries:
         - ^managedkafka/schemaregistry/apiv1/doc\.go$
         - ^managedkafka/schemaregistry/apiv1/gapic_metadata\.json$
         - ^managedkafka/schemaregistry/apiv1/helpers\.go$
-        - ^managedkafka/schemaregistry/apiv1/schemaregistrypb$
+        - ^managedkafka/schemaregistry/apiv1/schemaregistrypb/.*$
     - id: maps
       version: 1.23.0
       last_generated_commit: ""
@@ -2718,7 +2718,7 @@ libraries:
         - ^maps/addressvalidation/apiv1/doc\.go$
         - ^maps/addressvalidation/apiv1/gapic_metadata\.json$
         - ^maps/addressvalidation/apiv1/helpers\.go$
-        - ^maps/addressvalidation/apiv1/addressvalidationpb$
+        - ^maps/addressvalidation/apiv1/addressvalidationpb/.*$
         - ^maps/areainsights/apiv1/[^/]*_client\.go$
         - ^maps/areainsights/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/areainsights/apiv1/[^/]*_client_example_test\.go$
@@ -2727,7 +2727,7 @@ libraries:
         - ^maps/areainsights/apiv1/doc\.go$
         - ^maps/areainsights/apiv1/gapic_metadata\.json$
         - ^maps/areainsights/apiv1/helpers\.go$
-        - ^maps/areainsights/apiv1/areainsightspb$
+        - ^maps/areainsights/apiv1/areainsightspb/.*$
         - ^maps/fleetengine/apiv1/[^/]*_client\.go$
         - ^maps/fleetengine/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/fleetengine/apiv1/[^/]*_client_example_test\.go$
@@ -2736,7 +2736,7 @@ libraries:
         - ^maps/fleetengine/apiv1/doc\.go$
         - ^maps/fleetengine/apiv1/gapic_metadata\.json$
         - ^maps/fleetengine/apiv1/helpers\.go$
-        - ^maps/fleetengine/apiv1/fleetenginepb$
+        - ^maps/fleetengine/apiv1/fleetenginepb/.*$
         - ^maps/fleetengine/delivery/apiv1/[^/]*_client\.go$
         - ^maps/fleetengine/delivery/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/fleetengine/delivery/apiv1/[^/]*_client_example_test\.go$
@@ -2745,7 +2745,7 @@ libraries:
         - ^maps/fleetengine/delivery/apiv1/doc\.go$
         - ^maps/fleetengine/delivery/apiv1/gapic_metadata\.json$
         - ^maps/fleetengine/delivery/apiv1/helpers\.go$
-        - ^maps/fleetengine/delivery/apiv1/deliverypb$
+        - ^maps/fleetengine/delivery/apiv1/deliverypb/.*$
         - ^maps/places/apiv1/[^/]*_client\.go$
         - ^maps/places/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/places/apiv1/[^/]*_client_example_test\.go$
@@ -2754,7 +2754,7 @@ libraries:
         - ^maps/places/apiv1/doc\.go$
         - ^maps/places/apiv1/gapic_metadata\.json$
         - ^maps/places/apiv1/helpers\.go$
-        - ^maps/places/apiv1/placespb$
+        - ^maps/places/apiv1/placespb/.*$
         - ^maps/routeoptimization/apiv1/[^/]*_client\.go$
         - ^maps/routeoptimization/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/routeoptimization/apiv1/[^/]*_client_example_test\.go$
@@ -2763,7 +2763,7 @@ libraries:
         - ^maps/routeoptimization/apiv1/doc\.go$
         - ^maps/routeoptimization/apiv1/gapic_metadata\.json$
         - ^maps/routeoptimization/apiv1/helpers\.go$
-        - ^maps/routeoptimization/apiv1/routeoptimizationpb$
+        - ^maps/routeoptimization/apiv1/routeoptimizationpb/.*$
         - ^maps/routing/apiv2/[^/]*_client\.go$
         - ^maps/routing/apiv2/[^/]*_client_example_go123_test\.go$
         - ^maps/routing/apiv2/[^/]*_client_example_test\.go$
@@ -2772,7 +2772,7 @@ libraries:
         - ^maps/routing/apiv2/doc\.go$
         - ^maps/routing/apiv2/gapic_metadata\.json$
         - ^maps/routing/apiv2/helpers\.go$
-        - ^maps/routing/apiv2/routingpb$
+        - ^maps/routing/apiv2/routingpb/.*$
         - ^maps/solar/apiv1/[^/]*_client\.go$
         - ^maps/solar/apiv1/[^/]*_client_example_go123_test\.go$
         - ^maps/solar/apiv1/[^/]*_client_example_test\.go$
@@ -2781,7 +2781,7 @@ libraries:
         - ^maps/solar/apiv1/doc\.go$
         - ^maps/solar/apiv1/gapic_metadata\.json$
         - ^maps/solar/apiv1/helpers\.go$
-        - ^maps/solar/apiv1/solarpb$
+        - ^maps/solar/apiv1/solarpb/.*$
     - id: mediatranslation
       version: 0.9.6
       last_generated_commit: ""
@@ -2804,7 +2804,7 @@ libraries:
         - ^mediatranslation/apiv1beta1/doc\.go$
         - ^mediatranslation/apiv1beta1/gapic_metadata\.json$
         - ^mediatranslation/apiv1beta1/helpers\.go$
-        - ^mediatranslation/apiv1beta1/mediatranslationpb$
+        - ^mediatranslation/apiv1beta1/mediatranslationpb/.*$
     - id: memcache
       version: 1.11.6
       last_generated_commit: ""
@@ -2829,7 +2829,7 @@ libraries:
         - ^memcache/apiv1/doc\.go$
         - ^memcache/apiv1/gapic_metadata\.json$
         - ^memcache/apiv1/helpers\.go$
-        - ^memcache/apiv1/memcachepb$
+        - ^memcache/apiv1/memcachepb/.*$
         - ^memcache/apiv1beta2/[^/]*_client\.go$
         - ^memcache/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^memcache/apiv1beta2/[^/]*_client_example_test\.go$
@@ -2838,7 +2838,7 @@ libraries:
         - ^memcache/apiv1beta2/doc\.go$
         - ^memcache/apiv1beta2/gapic_metadata\.json$
         - ^memcache/apiv1beta2/helpers\.go$
-        - ^memcache/apiv1beta2/memcachepb$
+        - ^memcache/apiv1beta2/memcachepb/.*$
     - id: memorystore
       version: 0.3.0
       last_generated_commit: ""
@@ -2863,7 +2863,7 @@ libraries:
         - ^memorystore/apiv1/doc\.go$
         - ^memorystore/apiv1/gapic_metadata\.json$
         - ^memorystore/apiv1/helpers\.go$
-        - ^memorystore/apiv1/memorystorepb$
+        - ^memorystore/apiv1/memorystorepb/.*$
         - ^memorystore/apiv1beta/[^/]*_client\.go$
         - ^memorystore/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^memorystore/apiv1beta/[^/]*_client_example_test\.go$
@@ -2872,7 +2872,7 @@ libraries:
         - ^memorystore/apiv1beta/doc\.go$
         - ^memorystore/apiv1beta/gapic_metadata\.json$
         - ^memorystore/apiv1beta/helpers\.go$
-        - ^memorystore/apiv1beta/memorystorepb$
+        - ^memorystore/apiv1beta/memorystorepb/.*$
     - id: metastore
       version: 1.14.7
       last_generated_commit: ""
@@ -2899,7 +2899,7 @@ libraries:
         - ^metastore/apiv1/doc\.go$
         - ^metastore/apiv1/gapic_metadata\.json$
         - ^metastore/apiv1/helpers\.go$
-        - ^metastore/apiv1/metastorepb$
+        - ^metastore/apiv1/metastorepb/.*$
         - ^metastore/apiv1alpha/[^/]*_client\.go$
         - ^metastore/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^metastore/apiv1alpha/[^/]*_client_example_test\.go$
@@ -2908,7 +2908,7 @@ libraries:
         - ^metastore/apiv1alpha/doc\.go$
         - ^metastore/apiv1alpha/gapic_metadata\.json$
         - ^metastore/apiv1alpha/helpers\.go$
-        - ^metastore/apiv1alpha/metastorepb$
+        - ^metastore/apiv1alpha/metastorepb/.*$
         - ^metastore/apiv1beta/[^/]*_client\.go$
         - ^metastore/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^metastore/apiv1beta/[^/]*_client_example_test\.go$
@@ -2917,7 +2917,7 @@ libraries:
         - ^metastore/apiv1beta/doc\.go$
         - ^metastore/apiv1beta/gapic_metadata\.json$
         - ^metastore/apiv1beta/helpers\.go$
-        - ^metastore/apiv1beta/metastorepb$
+        - ^metastore/apiv1beta/metastorepb/.*$
     - id: migrationcenter
       version: 1.1.5
       last_generated_commit: ""
@@ -2940,7 +2940,7 @@ libraries:
         - ^migrationcenter/apiv1/doc\.go$
         - ^migrationcenter/apiv1/gapic_metadata\.json$
         - ^migrationcenter/apiv1/helpers\.go$
-        - ^migrationcenter/apiv1/migrationcenterpb$
+        - ^migrationcenter/apiv1/migrationcenterpb/.*$
     - id: modelarmor
       version: 0.6.0
       last_generated_commit: ""
@@ -2965,7 +2965,7 @@ libraries:
         - ^modelarmor/apiv1/doc\.go$
         - ^modelarmor/apiv1/gapic_metadata\.json$
         - ^modelarmor/apiv1/helpers\.go$
-        - ^modelarmor/apiv1/modelarmorpb$
+        - ^modelarmor/apiv1/modelarmorpb/.*$
         - ^modelarmor/apiv1beta/[^/]*_client\.go$
         - ^modelarmor/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^modelarmor/apiv1beta/[^/]*_client_example_test\.go$
@@ -2974,7 +2974,7 @@ libraries:
         - ^modelarmor/apiv1beta/doc\.go$
         - ^modelarmor/apiv1beta/gapic_metadata\.json$
         - ^modelarmor/apiv1beta/helpers\.go$
-        - ^modelarmor/apiv1beta/modelarmorpb$
+        - ^modelarmor/apiv1beta/modelarmorpb/.*$
     - id: netapp
       version: 1.9.0
       last_generated_commit: ""
@@ -2997,7 +2997,7 @@ libraries:
         - ^netapp/apiv1/doc\.go$
         - ^netapp/apiv1/gapic_metadata\.json$
         - ^netapp/apiv1/helpers\.go$
-        - ^netapp/apiv1/netapppb$
+        - ^netapp/apiv1/netapppb/.*$
     - id: networkconnectivity
       version: 1.18.0
       last_generated_commit: ""
@@ -3022,7 +3022,7 @@ libraries:
         - ^networkconnectivity/apiv1/doc\.go$
         - ^networkconnectivity/apiv1/gapic_metadata\.json$
         - ^networkconnectivity/apiv1/helpers\.go$
-        - ^networkconnectivity/apiv1/networkconnectivitypb$
+        - ^networkconnectivity/apiv1/networkconnectivitypb/.*$
         - ^networkconnectivity/apiv1alpha1/[^/]*_client\.go$
         - ^networkconnectivity/apiv1alpha1/[^/]*_client_example_go123_test\.go$
         - ^networkconnectivity/apiv1alpha1/[^/]*_client_example_test\.go$
@@ -3031,7 +3031,7 @@ libraries:
         - ^networkconnectivity/apiv1alpha1/doc\.go$
         - ^networkconnectivity/apiv1alpha1/gapic_metadata\.json$
         - ^networkconnectivity/apiv1alpha1/helpers\.go$
-        - ^networkconnectivity/apiv1alpha1/networkconnectivitypb$
+        - ^networkconnectivity/apiv1alpha1/networkconnectivitypb/.*$
     - id: networkmanagement
       version: 1.20.0
       last_generated_commit: ""
@@ -3054,7 +3054,7 @@ libraries:
         - ^networkmanagement/apiv1/doc\.go$
         - ^networkmanagement/apiv1/gapic_metadata\.json$
         - ^networkmanagement/apiv1/helpers\.go$
-        - ^networkmanagement/apiv1/networkmanagementpb$
+        - ^networkmanagement/apiv1/networkmanagementpb/.*$
     - id: networksecurity
       version: 0.10.6
       last_generated_commit: ""
@@ -3077,7 +3077,7 @@ libraries:
         - ^networksecurity/apiv1beta1/doc\.go$
         - ^networksecurity/apiv1beta1/gapic_metadata\.json$
         - ^networksecurity/apiv1beta1/helpers\.go$
-        - ^networksecurity/apiv1beta1/networksecuritypb$
+        - ^networksecurity/apiv1beta1/networksecuritypb/.*$
     - id: networkservices
       version: 0.5.0
       last_generated_commit: ""
@@ -3100,7 +3100,7 @@ libraries:
         - ^networkservices/apiv1/doc\.go$
         - ^networkservices/apiv1/gapic_metadata\.json$
         - ^networkservices/apiv1/helpers\.go$
-        - ^networkservices/apiv1/networkservicespb$
+        - ^networkservices/apiv1/networkservicespb/.*$
     - id: notebooks
       version: 1.12.6
       last_generated_commit: ""
@@ -3127,7 +3127,7 @@ libraries:
         - ^notebooks/apiv1/doc\.go$
         - ^notebooks/apiv1/gapic_metadata\.json$
         - ^notebooks/apiv1/helpers\.go$
-        - ^notebooks/apiv1/notebookspb$
+        - ^notebooks/apiv1/notebookspb/.*$
         - ^notebooks/apiv1beta1/[^/]*_client\.go$
         - ^notebooks/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^notebooks/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3136,7 +3136,7 @@ libraries:
         - ^notebooks/apiv1beta1/doc\.go$
         - ^notebooks/apiv1beta1/gapic_metadata\.json$
         - ^notebooks/apiv1beta1/helpers\.go$
-        - ^notebooks/apiv1beta1/notebookspb$
+        - ^notebooks/apiv1beta1/notebookspb/.*$
         - ^notebooks/apiv2/[^/]*_client\.go$
         - ^notebooks/apiv2/[^/]*_client_example_go123_test\.go$
         - ^notebooks/apiv2/[^/]*_client_example_test\.go$
@@ -3145,7 +3145,7 @@ libraries:
         - ^notebooks/apiv2/doc\.go$
         - ^notebooks/apiv2/gapic_metadata\.json$
         - ^notebooks/apiv2/helpers\.go$
-        - ^notebooks/apiv2/notebookspb$
+        - ^notebooks/apiv2/notebookspb/.*$
     - id: optimization
       version: 1.7.6
       last_generated_commit: ""
@@ -3168,7 +3168,7 @@ libraries:
         - ^optimization/apiv1/doc\.go$
         - ^optimization/apiv1/gapic_metadata\.json$
         - ^optimization/apiv1/helpers\.go$
-        - ^optimization/apiv1/optimizationpb$
+        - ^optimization/apiv1/optimizationpb/.*$
     - id: oracledatabase
       version: 0.5.0
       last_generated_commit: ""
@@ -3191,7 +3191,7 @@ libraries:
         - ^oracledatabase/apiv1/doc\.go$
         - ^oracledatabase/apiv1/gapic_metadata\.json$
         - ^oracledatabase/apiv1/helpers\.go$
-        - ^oracledatabase/apiv1/oracledatabasepb$
+        - ^oracledatabase/apiv1/oracledatabasepb/.*$
     - id: orchestration
       version: 1.11.9
       last_generated_commit: ""
@@ -3214,7 +3214,7 @@ libraries:
         - ^orchestration/airflow/service/apiv1/doc\.go$
         - ^orchestration/airflow/service/apiv1/gapic_metadata\.json$
         - ^orchestration/airflow/service/apiv1/helpers\.go$
-        - ^orchestration/airflow/service/apiv1/servicepb$
+        - ^orchestration/airflow/service/apiv1/servicepb/.*$
     - id: orgpolicy
       version: 1.15.0
       last_generated_commit: ""
@@ -3239,7 +3239,7 @@ libraries:
         - ^orgpolicy/apiv1/doc\.go$
         - ^orgpolicy/apiv1/gapic_metadata\.json$
         - ^orgpolicy/apiv1/helpers\.go$
-        - ^orgpolicy/apiv1/orgpolicypb$
+        - ^orgpolicy/apiv1/orgpolicypb/.*$
         - ^orgpolicy/apiv2/[^/]*_client\.go$
         - ^orgpolicy/apiv2/[^/]*_client_example_go123_test\.go$
         - ^orgpolicy/apiv2/[^/]*_client_example_test\.go$
@@ -3248,7 +3248,7 @@ libraries:
         - ^orgpolicy/apiv2/doc\.go$
         - ^orgpolicy/apiv2/gapic_metadata\.json$
         - ^orgpolicy/apiv2/helpers\.go$
-        - ^orgpolicy/apiv2/orgpolicypb$
+        - ^orgpolicy/apiv2/orgpolicypb/.*$
     - id: osconfig
       version: 1.15.0
       last_generated_commit: ""
@@ -3279,7 +3279,7 @@ libraries:
         - ^osconfig/agentendpoint/apiv1/doc\.go$
         - ^osconfig/agentendpoint/apiv1/gapic_metadata\.json$
         - ^osconfig/agentendpoint/apiv1/helpers\.go$
-        - ^osconfig/agentendpoint/apiv1/agentendpointpb$
+        - ^osconfig/agentendpoint/apiv1/agentendpointpb/.*$
         - ^osconfig/agentendpoint/apiv1beta/[^/]*_client\.go$
         - ^osconfig/agentendpoint/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^osconfig/agentendpoint/apiv1beta/[^/]*_client_example_test\.go$
@@ -3288,7 +3288,7 @@ libraries:
         - ^osconfig/agentendpoint/apiv1beta/doc\.go$
         - ^osconfig/agentendpoint/apiv1beta/gapic_metadata\.json$
         - ^osconfig/agentendpoint/apiv1beta/helpers\.go$
-        - ^osconfig/agentendpoint/apiv1beta/agentendpointpb$
+        - ^osconfig/agentendpoint/apiv1beta/agentendpointpb/.*$
         - ^osconfig/apiv1/[^/]*_client\.go$
         - ^osconfig/apiv1/[^/]*_client_example_go123_test\.go$
         - ^osconfig/apiv1/[^/]*_client_example_test\.go$
@@ -3297,7 +3297,7 @@ libraries:
         - ^osconfig/apiv1/doc\.go$
         - ^osconfig/apiv1/gapic_metadata\.json$
         - ^osconfig/apiv1/helpers\.go$
-        - ^osconfig/apiv1/osconfigpb$
+        - ^osconfig/apiv1/osconfigpb/.*$
         - ^osconfig/apiv1alpha/[^/]*_client\.go$
         - ^osconfig/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^osconfig/apiv1alpha/[^/]*_client_example_test\.go$
@@ -3306,7 +3306,7 @@ libraries:
         - ^osconfig/apiv1alpha/doc\.go$
         - ^osconfig/apiv1alpha/gapic_metadata\.json$
         - ^osconfig/apiv1alpha/helpers\.go$
-        - ^osconfig/apiv1alpha/osconfigpb$
+        - ^osconfig/apiv1alpha/osconfigpb/.*$
         - ^osconfig/apiv1beta/[^/]*_client\.go$
         - ^osconfig/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^osconfig/apiv1beta/[^/]*_client_example_test\.go$
@@ -3315,7 +3315,7 @@ libraries:
         - ^osconfig/apiv1beta/doc\.go$
         - ^osconfig/apiv1beta/gapic_metadata\.json$
         - ^osconfig/apiv1beta/helpers\.go$
-        - ^osconfig/apiv1beta/osconfigpb$
+        - ^osconfig/apiv1beta/osconfigpb/.*$
     - id: oslogin
       version: 1.14.6
       last_generated_commit: ""
@@ -3342,7 +3342,7 @@ libraries:
         - ^oslogin/apiv1/doc\.go$
         - ^oslogin/apiv1/gapic_metadata\.json$
         - ^oslogin/apiv1/helpers\.go$
-        - ^oslogin/apiv1/osloginpb$
+        - ^oslogin/apiv1/osloginpb/.*$
         - ^oslogin/apiv1beta/[^/]*_client\.go$
         - ^oslogin/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^oslogin/apiv1beta/[^/]*_client_example_test\.go$
@@ -3351,7 +3351,7 @@ libraries:
         - ^oslogin/apiv1beta/doc\.go$
         - ^oslogin/apiv1beta/gapic_metadata\.json$
         - ^oslogin/apiv1beta/helpers\.go$
-        - ^oslogin/apiv1beta/osloginpb$
+        - ^oslogin/apiv1beta/osloginpb/.*$
     - id: parallelstore
       version: 0.11.3
       last_generated_commit: ""
@@ -3376,7 +3376,7 @@ libraries:
         - ^parallelstore/apiv1/doc\.go$
         - ^parallelstore/apiv1/gapic_metadata\.json$
         - ^parallelstore/apiv1/helpers\.go$
-        - ^parallelstore/apiv1/parallelstorepb$
+        - ^parallelstore/apiv1/parallelstorepb/.*$
         - ^parallelstore/apiv1beta/[^/]*_client\.go$
         - ^parallelstore/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^parallelstore/apiv1beta/[^/]*_client_example_test\.go$
@@ -3385,7 +3385,7 @@ libraries:
         - ^parallelstore/apiv1beta/doc\.go$
         - ^parallelstore/apiv1beta/gapic_metadata\.json$
         - ^parallelstore/apiv1beta/helpers\.go$
-        - ^parallelstore/apiv1beta/parallelstorepb$
+        - ^parallelstore/apiv1beta/parallelstorepb/.*$
     - id: parametermanager
       version: 0.3.0
       last_generated_commit: ""
@@ -3408,7 +3408,7 @@ libraries:
         - ^parametermanager/apiv1/doc\.go$
         - ^parametermanager/apiv1/gapic_metadata\.json$
         - ^parametermanager/apiv1/helpers\.go$
-        - ^parametermanager/apiv1/parametermanagerpb$
+        - ^parametermanager/apiv1/parametermanagerpb/.*$
     - id: phishingprotection
       version: 0.9.6
       last_generated_commit: ""
@@ -3431,7 +3431,7 @@ libraries:
         - ^phishingprotection/apiv1beta1/doc\.go$
         - ^phishingprotection/apiv1beta1/gapic_metadata\.json$
         - ^phishingprotection/apiv1beta1/helpers\.go$
-        - ^phishingprotection/apiv1beta1/phishingprotectionpb$
+        - ^phishingprotection/apiv1beta1/phishingprotectionpb/.*$
     - id: policysimulator
       version: 0.4.0
       last_generated_commit: ""
@@ -3454,7 +3454,7 @@ libraries:
         - ^policysimulator/apiv1/doc\.go$
         - ^policysimulator/apiv1/gapic_metadata\.json$
         - ^policysimulator/apiv1/helpers\.go$
-        - ^policysimulator/apiv1/policysimulatorpb$
+        - ^policysimulator/apiv1/policysimulatorpb/.*$
     - id: policytroubleshooter
       version: 1.11.6
       last_generated_commit: ""
@@ -3479,7 +3479,7 @@ libraries:
         - ^policytroubleshooter/apiv1/doc\.go$
         - ^policytroubleshooter/apiv1/gapic_metadata\.json$
         - ^policytroubleshooter/apiv1/helpers\.go$
-        - ^policytroubleshooter/apiv1/policytroubleshooterpb$
+        - ^policytroubleshooter/apiv1/policytroubleshooterpb/.*$
         - ^policytroubleshooter/iam/apiv3/[^/]*_client\.go$
         - ^policytroubleshooter/iam/apiv3/[^/]*_client_example_go123_test\.go$
         - ^policytroubleshooter/iam/apiv3/[^/]*_client_example_test\.go$
@@ -3488,7 +3488,7 @@ libraries:
         - ^policytroubleshooter/iam/apiv3/doc\.go$
         - ^policytroubleshooter/iam/apiv3/gapic_metadata\.json$
         - ^policytroubleshooter/iam/apiv3/helpers\.go$
-        - ^policytroubleshooter/iam/apiv3/iampb$
+        - ^policytroubleshooter/iam/apiv3/iampb/.*$
     - id: privatecatalog
       version: 0.10.7
       last_generated_commit: ""
@@ -3511,7 +3511,7 @@ libraries:
         - ^privatecatalog/apiv1beta1/doc\.go$
         - ^privatecatalog/apiv1beta1/gapic_metadata\.json$
         - ^privatecatalog/apiv1beta1/helpers\.go$
-        - ^privatecatalog/apiv1beta1/privatecatalogpb$
+        - ^privatecatalog/apiv1beta1/privatecatalogpb/.*$
     - id: privilegedaccessmanager
       version: 0.3.0
       last_generated_commit: ""
@@ -3534,7 +3534,7 @@ libraries:
         - ^privilegedaccessmanager/apiv1/doc\.go$
         - ^privilegedaccessmanager/apiv1/gapic_metadata\.json$
         - ^privilegedaccessmanager/apiv1/helpers\.go$
-        - ^privilegedaccessmanager/apiv1/privilegedaccessmanagerpb$
+        - ^privilegedaccessmanager/apiv1/privilegedaccessmanagerpb/.*$
     - id: profiler
       version: 0.4.3
       last_generated_commit: ""
@@ -3569,7 +3569,7 @@ libraries:
         - ^pubsublite/apiv1/doc\.go$
         - ^pubsublite/apiv1/gapic_metadata\.json$
         - ^pubsublite/apiv1/helpers\.go$
-        - ^pubsublite/apiv1/pubsublitepb$
+        - ^pubsublite/apiv1/pubsublitepb/.*$
     - id: rapidmigrationassessment
       version: 1.1.7
       last_generated_commit: ""
@@ -3592,7 +3592,7 @@ libraries:
         - ^rapidmigrationassessment/apiv1/doc\.go$
         - ^rapidmigrationassessment/apiv1/gapic_metadata\.json$
         - ^rapidmigrationassessment/apiv1/helpers\.go$
-        - ^rapidmigrationassessment/apiv1/rapidmigrationassessmentpb$
+        - ^rapidmigrationassessment/apiv1/rapidmigrationassessmentpb/.*$
     - id: recaptchaenterprise
       version: 2.20.4
       last_generated_commit: ""
@@ -3617,7 +3617,7 @@ libraries:
         - ^recaptchaenterprise/apiv1/doc\.go$
         - ^recaptchaenterprise/apiv1/gapic_metadata\.json$
         - ^recaptchaenterprise/apiv1/helpers\.go$
-        - ^recaptchaenterprise/apiv1/recaptchaenterprisepb$
+        - ^recaptchaenterprise/apiv1/recaptchaenterprisepb/.*$
         - ^recaptchaenterprise/apiv1beta1/[^/]*_client\.go$
         - ^recaptchaenterprise/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^recaptchaenterprise/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3626,7 +3626,7 @@ libraries:
         - ^recaptchaenterprise/apiv1beta1/doc\.go$
         - ^recaptchaenterprise/apiv1beta1/gapic_metadata\.json$
         - ^recaptchaenterprise/apiv1beta1/helpers\.go$
-        - ^recaptchaenterprise/apiv1beta1/recaptchaenterprisepb$
+        - ^recaptchaenterprise/apiv1beta1/recaptchaenterprisepb/.*$
     - id: recommendationengine
       version: 0.9.6
       last_generated_commit: ""
@@ -3649,7 +3649,7 @@ libraries:
         - ^recommendationengine/apiv1beta1/doc\.go$
         - ^recommendationengine/apiv1beta1/gapic_metadata\.json$
         - ^recommendationengine/apiv1beta1/helpers\.go$
-        - ^recommendationengine/apiv1beta1/recommendationenginepb$
+        - ^recommendationengine/apiv1beta1/recommendationenginepb/.*$
     - id: recommender
       version: 1.13.5
       last_generated_commit: ""
@@ -3674,7 +3674,7 @@ libraries:
         - ^recommender/apiv1/doc\.go$
         - ^recommender/apiv1/gapic_metadata\.json$
         - ^recommender/apiv1/helpers\.go$
-        - ^recommender/apiv1/recommenderpb$
+        - ^recommender/apiv1/recommenderpb/.*$
         - ^recommender/apiv1beta1/[^/]*_client\.go$
         - ^recommender/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^recommender/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3683,7 +3683,7 @@ libraries:
         - ^recommender/apiv1beta1/doc\.go$
         - ^recommender/apiv1beta1/gapic_metadata\.json$
         - ^recommender/apiv1beta1/helpers\.go$
-        - ^recommender/apiv1beta1/recommenderpb$
+        - ^recommender/apiv1beta1/recommenderpb/.*$
     - id: redis
       version: 1.18.2
       last_generated_commit: ""
@@ -3710,7 +3710,7 @@ libraries:
         - ^redis/apiv1/doc\.go$
         - ^redis/apiv1/gapic_metadata\.json$
         - ^redis/apiv1/helpers\.go$
-        - ^redis/apiv1/redispb$
+        - ^redis/apiv1/redispb/.*$
         - ^redis/apiv1beta1/[^/]*_client\.go$
         - ^redis/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^redis/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3719,7 +3719,7 @@ libraries:
         - ^redis/apiv1beta1/doc\.go$
         - ^redis/apiv1beta1/gapic_metadata\.json$
         - ^redis/apiv1beta1/helpers\.go$
-        - ^redis/apiv1beta1/redispb$
+        - ^redis/apiv1beta1/redispb/.*$
         - ^redis/cluster/apiv1/[^/]*_client\.go$
         - ^redis/cluster/apiv1/[^/]*_client_example_go123_test\.go$
         - ^redis/cluster/apiv1/[^/]*_client_example_test\.go$
@@ -3728,7 +3728,7 @@ libraries:
         - ^redis/cluster/apiv1/doc\.go$
         - ^redis/cluster/apiv1/gapic_metadata\.json$
         - ^redis/cluster/apiv1/helpers\.go$
-        - ^redis/cluster/apiv1/clusterpb$
+        - ^redis/cluster/apiv1/clusterpb/.*$
     - id: resourcemanager
       version: 1.10.6
       last_generated_commit: ""
@@ -3753,7 +3753,7 @@ libraries:
         - ^resourcemanager/apiv2/doc\.go$
         - ^resourcemanager/apiv2/gapic_metadata\.json$
         - ^resourcemanager/apiv2/helpers\.go$
-        - ^resourcemanager/apiv2/resourcemanagerpb$
+        - ^resourcemanager/apiv2/resourcemanagerpb/.*$
         - ^resourcemanager/apiv3/[^/]*_client\.go$
         - ^resourcemanager/apiv3/[^/]*_client_example_go123_test\.go$
         - ^resourcemanager/apiv3/[^/]*_client_example_test\.go$
@@ -3762,7 +3762,7 @@ libraries:
         - ^resourcemanager/apiv3/doc\.go$
         - ^resourcemanager/apiv3/gapic_metadata\.json$
         - ^resourcemanager/apiv3/helpers\.go$
-        - ^resourcemanager/apiv3/resourcemanagerpb$
+        - ^resourcemanager/apiv3/resourcemanagerpb/.*$
     - id: retail
       version: 1.24.0
       last_generated_commit: ""
@@ -3789,7 +3789,7 @@ libraries:
         - ^retail/apiv2/doc\.go$
         - ^retail/apiv2/gapic_metadata\.json$
         - ^retail/apiv2/helpers\.go$
-        - ^retail/apiv2/retailpb$
+        - ^retail/apiv2/retailpb/.*$
         - ^retail/apiv2alpha/[^/]*_client\.go$
         - ^retail/apiv2alpha/[^/]*_client_example_go123_test\.go$
         - ^retail/apiv2alpha/[^/]*_client_example_test\.go$
@@ -3798,7 +3798,7 @@ libraries:
         - ^retail/apiv2alpha/doc\.go$
         - ^retail/apiv2alpha/gapic_metadata\.json$
         - ^retail/apiv2alpha/helpers\.go$
-        - ^retail/apiv2alpha/retailpb$
+        - ^retail/apiv2alpha/retailpb/.*$
         - ^retail/apiv2beta/[^/]*_client\.go$
         - ^retail/apiv2beta/[^/]*_client_example_go123_test\.go$
         - ^retail/apiv2beta/[^/]*_client_example_test\.go$
@@ -3807,7 +3807,7 @@ libraries:
         - ^retail/apiv2beta/doc\.go$
         - ^retail/apiv2beta/gapic_metadata\.json$
         - ^retail/apiv2beta/helpers\.go$
-        - ^retail/apiv2beta/retailpb$
+        - ^retail/apiv2beta/retailpb/.*$
     - id: run
       version: 1.12.0
       last_generated_commit: ""
@@ -3830,7 +3830,7 @@ libraries:
         - ^run/apiv2/doc\.go$
         - ^run/apiv2/gapic_metadata\.json$
         - ^run/apiv2/helpers\.go$
-        - ^run/apiv2/runpb$
+        - ^run/apiv2/runpb/.*$
     - id: scheduler
       version: 1.11.7
       last_generated_commit: ""
@@ -3855,7 +3855,7 @@ libraries:
         - ^scheduler/apiv1/doc\.go$
         - ^scheduler/apiv1/gapic_metadata\.json$
         - ^scheduler/apiv1/helpers\.go$
-        - ^scheduler/apiv1/schedulerpb$
+        - ^scheduler/apiv1/schedulerpb/.*$
         - ^scheduler/apiv1beta1/[^/]*_client\.go$
         - ^scheduler/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^scheduler/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3864,7 +3864,7 @@ libraries:
         - ^scheduler/apiv1beta1/doc\.go$
         - ^scheduler/apiv1beta1/gapic_metadata\.json$
         - ^scheduler/apiv1beta1/helpers\.go$
-        - ^scheduler/apiv1beta1/schedulerpb$
+        - ^scheduler/apiv1beta1/schedulerpb/.*$
     - id: secretmanager
       version: 1.15.0
       last_generated_commit: ""
@@ -3889,7 +3889,7 @@ libraries:
         - ^secretmanager/apiv1/doc\.go$
         - ^secretmanager/apiv1/gapic_metadata\.json$
         - ^secretmanager/apiv1/helpers\.go$
-        - ^secretmanager/apiv1/secretmanagerpb$
+        - ^secretmanager/apiv1/secretmanagerpb/.*$
         - ^secretmanager/apiv1beta2/[^/]*_client\.go$
         - ^secretmanager/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^secretmanager/apiv1beta2/[^/]*_client_example_test\.go$
@@ -3898,7 +3898,7 @@ libraries:
         - ^secretmanager/apiv1beta2/doc\.go$
         - ^secretmanager/apiv1beta2/gapic_metadata\.json$
         - ^secretmanager/apiv1beta2/helpers\.go$
-        - ^secretmanager/apiv1beta2/secretmanagerpb$
+        - ^secretmanager/apiv1beta2/secretmanagerpb/.*$
     - id: securesourcemanager
       version: 1.4.0
       last_generated_commit: ""
@@ -3921,7 +3921,7 @@ libraries:
         - ^securesourcemanager/apiv1/doc\.go$
         - ^securesourcemanager/apiv1/gapic_metadata\.json$
         - ^securesourcemanager/apiv1/helpers\.go$
-        - ^securesourcemanager/apiv1/securesourcemanagerpb$
+        - ^securesourcemanager/apiv1/securesourcemanagerpb/.*$
     - id: security
       version: 1.19.0
       last_generated_commit: ""
@@ -3948,7 +3948,7 @@ libraries:
         - ^security/privateca/apiv1/doc\.go$
         - ^security/privateca/apiv1/gapic_metadata\.json$
         - ^security/privateca/apiv1/helpers\.go$
-        - ^security/privateca/apiv1/privatecapb$
+        - ^security/privateca/apiv1/privatecapb/.*$
         - ^security/publicca/apiv1/[^/]*_client\.go$
         - ^security/publicca/apiv1/[^/]*_client_example_go123_test\.go$
         - ^security/publicca/apiv1/[^/]*_client_example_test\.go$
@@ -3957,7 +3957,7 @@ libraries:
         - ^security/publicca/apiv1/doc\.go$
         - ^security/publicca/apiv1/gapic_metadata\.json$
         - ^security/publicca/apiv1/helpers\.go$
-        - ^security/publicca/apiv1/publiccapb$
+        - ^security/publicca/apiv1/publiccapb/.*$
         - ^security/publicca/apiv1beta1/[^/]*_client\.go$
         - ^security/publicca/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^security/publicca/apiv1beta1/[^/]*_client_example_test\.go$
@@ -3966,7 +3966,7 @@ libraries:
         - ^security/publicca/apiv1beta1/doc\.go$
         - ^security/publicca/apiv1beta1/gapic_metadata\.json$
         - ^security/publicca/apiv1beta1/helpers\.go$
-        - ^security/publicca/apiv1beta1/publiccapb$
+        - ^security/publicca/apiv1beta1/publiccapb/.*$
     - id: securitycenter
       version: 1.37.0
       last_generated_commit: ""
@@ -3997,7 +3997,7 @@ libraries:
         - ^securitycenter/apiv1/doc\.go$
         - ^securitycenter/apiv1/gapic_metadata\.json$
         - ^securitycenter/apiv1/helpers\.go$
-        - ^securitycenter/apiv1/securitycenterpb$
+        - ^securitycenter/apiv1/securitycenterpb/.*$
         - ^securitycenter/apiv1beta1/[^/]*_client\.go$
         - ^securitycenter/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^securitycenter/apiv1beta1/[^/]*_client_example_test\.go$
@@ -4006,7 +4006,7 @@ libraries:
         - ^securitycenter/apiv1beta1/doc\.go$
         - ^securitycenter/apiv1beta1/gapic_metadata\.json$
         - ^securitycenter/apiv1beta1/helpers\.go$
-        - ^securitycenter/apiv1beta1/securitycenterpb$
+        - ^securitycenter/apiv1beta1/securitycenterpb/.*$
         - ^securitycenter/apiv1p1beta1/[^/]*_client\.go$
         - ^securitycenter/apiv1p1beta1/[^/]*_client_example_go123_test\.go$
         - ^securitycenter/apiv1p1beta1/[^/]*_client_example_test\.go$
@@ -4015,7 +4015,7 @@ libraries:
         - ^securitycenter/apiv1p1beta1/doc\.go$
         - ^securitycenter/apiv1p1beta1/gapic_metadata\.json$
         - ^securitycenter/apiv1p1beta1/helpers\.go$
-        - ^securitycenter/apiv1p1beta1/securitycenterpb$
+        - ^securitycenter/apiv1p1beta1/securitycenterpb/.*$
         - ^securitycenter/apiv2/[^/]*_client\.go$
         - ^securitycenter/apiv2/[^/]*_client_example_go123_test\.go$
         - ^securitycenter/apiv2/[^/]*_client_example_test\.go$
@@ -4024,7 +4024,7 @@ libraries:
         - ^securitycenter/apiv2/doc\.go$
         - ^securitycenter/apiv2/gapic_metadata\.json$
         - ^securitycenter/apiv2/helpers\.go$
-        - ^securitycenter/apiv2/securitycenterpb$
+        - ^securitycenter/apiv2/securitycenterpb/.*$
         - ^securitycenter/settings/apiv1beta1/[^/]*_client\.go$
         - ^securitycenter/settings/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^securitycenter/settings/apiv1beta1/[^/]*_client_example_test\.go$
@@ -4033,7 +4033,7 @@ libraries:
         - ^securitycenter/settings/apiv1beta1/doc\.go$
         - ^securitycenter/settings/apiv1beta1/gapic_metadata\.json$
         - ^securitycenter/settings/apiv1beta1/helpers\.go$
-        - ^securitycenter/settings/apiv1beta1/settingspb$
+        - ^securitycenter/settings/apiv1beta1/settingspb/.*$
     - id: securitycentermanagement
       version: 1.1.5
       last_generated_commit: ""
@@ -4056,7 +4056,7 @@ libraries:
         - ^securitycentermanagement/apiv1/doc\.go$
         - ^securitycentermanagement/apiv1/gapic_metadata\.json$
         - ^securitycentermanagement/apiv1/helpers\.go$
-        - ^securitycentermanagement/apiv1/securitycentermanagementpb$
+        - ^securitycentermanagement/apiv1/securitycentermanagementpb/.*$
     - id: securityposture
       version: 0.2.5
       last_generated_commit: ""
@@ -4079,7 +4079,7 @@ libraries:
         - ^securityposture/apiv1/doc\.go$
         - ^securityposture/apiv1/gapic_metadata\.json$
         - ^securityposture/apiv1/helpers\.go$
-        - ^securityposture/apiv1/securityposturepb$
+        - ^securityposture/apiv1/securityposturepb/.*$
     - id: servicecontrol
       version: 1.14.5
       last_generated_commit: ""
@@ -4102,7 +4102,7 @@ libraries:
         - ^servicecontrol/apiv1/doc\.go$
         - ^servicecontrol/apiv1/gapic_metadata\.json$
         - ^servicecontrol/apiv1/helpers\.go$
-        - ^servicecontrol/apiv1/servicecontrolpb$
+        - ^servicecontrol/apiv1/servicecontrolpb/.*$
     - id: servicedirectory
       version: 1.12.6
       last_generated_commit: ""
@@ -4127,7 +4127,7 @@ libraries:
         - ^servicedirectory/apiv1/doc\.go$
         - ^servicedirectory/apiv1/gapic_metadata\.json$
         - ^servicedirectory/apiv1/helpers\.go$
-        - ^servicedirectory/apiv1/servicedirectorypb$
+        - ^servicedirectory/apiv1/servicedirectorypb/.*$
         - ^servicedirectory/apiv1beta1/[^/]*_client\.go$
         - ^servicedirectory/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^servicedirectory/apiv1beta1/[^/]*_client_example_test\.go$
@@ -4136,7 +4136,7 @@ libraries:
         - ^servicedirectory/apiv1beta1/doc\.go$
         - ^servicedirectory/apiv1beta1/gapic_metadata\.json$
         - ^servicedirectory/apiv1beta1/helpers\.go$
-        - ^servicedirectory/apiv1beta1/servicedirectorypb$
+        - ^servicedirectory/apiv1beta1/servicedirectorypb/.*$
     - id: servicehealth
       version: 1.2.3
       last_generated_commit: ""
@@ -4159,7 +4159,7 @@ libraries:
         - ^servicehealth/apiv1/doc\.go$
         - ^servicehealth/apiv1/gapic_metadata\.json$
         - ^servicehealth/apiv1/helpers\.go$
-        - ^servicehealth/apiv1/servicehealthpb$
+        - ^servicehealth/apiv1/servicehealthpb/.*$
     - id: servicemanagement
       version: 1.10.6
       last_generated_commit: ""
@@ -4182,7 +4182,7 @@ libraries:
         - ^servicemanagement/apiv1/doc\.go$
         - ^servicemanagement/apiv1/gapic_metadata\.json$
         - ^servicemanagement/apiv1/helpers\.go$
-        - ^servicemanagement/apiv1/servicemanagementpb$
+        - ^servicemanagement/apiv1/servicemanagementpb/.*$
     - id: serviceusage
       version: 1.9.6
       last_generated_commit: ""
@@ -4205,7 +4205,7 @@ libraries:
         - ^serviceusage/apiv1/doc\.go$
         - ^serviceusage/apiv1/gapic_metadata\.json$
         - ^serviceusage/apiv1/helpers\.go$
-        - ^serviceusage/apiv1/serviceusagepb$
+        - ^serviceusage/apiv1/serviceusagepb/.*$
     - id: shell
       version: 1.8.6
       last_generated_commit: ""
@@ -4228,7 +4228,7 @@ libraries:
         - ^shell/apiv1/doc\.go$
         - ^shell/apiv1/gapic_metadata\.json$
         - ^shell/apiv1/helpers\.go$
-        - ^shell/apiv1/shellpb$
+        - ^shell/apiv1/shellpb/.*$
     - id: shopping
       version: 1.0.0
       last_generated_commit: ""
@@ -4305,7 +4305,7 @@ libraries:
         - ^shopping/css/apiv1/doc\.go$
         - ^shopping/css/apiv1/gapic_metadata\.json$
         - ^shopping/css/apiv1/helpers\.go$
-        - ^shopping/css/apiv1/csspb$
+        - ^shopping/css/apiv1/csspb/.*$
         - ^shopping/merchant/accounts/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/accounts/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/accounts/apiv1/[^/]*_client_example_test\.go$
@@ -4314,7 +4314,7 @@ libraries:
         - ^shopping/merchant/accounts/apiv1/doc\.go$
         - ^shopping/merchant/accounts/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/accounts/apiv1/helpers\.go$
-        - ^shopping/merchant/accounts/apiv1/accountspb$
+        - ^shopping/merchant/accounts/apiv1/accountspb/.*$
         - ^shopping/merchant/accounts/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/accounts/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/accounts/apiv1beta/[^/]*_client_example_test\.go$
@@ -4323,7 +4323,7 @@ libraries:
         - ^shopping/merchant/accounts/apiv1beta/doc\.go$
         - ^shopping/merchant/accounts/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/accounts/apiv1beta/helpers\.go$
-        - ^shopping/merchant/accounts/apiv1beta/accountspb$
+        - ^shopping/merchant/accounts/apiv1beta/accountspb/.*$
         - ^shopping/merchant/conversions/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/conversions/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/conversions/apiv1/[^/]*_client_example_test\.go$
@@ -4332,7 +4332,7 @@ libraries:
         - ^shopping/merchant/conversions/apiv1/doc\.go$
         - ^shopping/merchant/conversions/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/conversions/apiv1/helpers\.go$
-        - ^shopping/merchant/conversions/apiv1/conversionspb$
+        - ^shopping/merchant/conversions/apiv1/conversionspb/.*$
         - ^shopping/merchant/conversions/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/conversions/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/conversions/apiv1beta/[^/]*_client_example_test\.go$
@@ -4341,7 +4341,7 @@ libraries:
         - ^shopping/merchant/conversions/apiv1beta/doc\.go$
         - ^shopping/merchant/conversions/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/conversions/apiv1beta/helpers\.go$
-        - ^shopping/merchant/conversions/apiv1beta/conversionspb$
+        - ^shopping/merchant/conversions/apiv1beta/conversionspb/.*$
         - ^shopping/merchant/datasources/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/datasources/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/datasources/apiv1/[^/]*_client_example_test\.go$
@@ -4350,7 +4350,7 @@ libraries:
         - ^shopping/merchant/datasources/apiv1/doc\.go$
         - ^shopping/merchant/datasources/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/datasources/apiv1/helpers\.go$
-        - ^shopping/merchant/datasources/apiv1/datasourcespb$
+        - ^shopping/merchant/datasources/apiv1/datasourcespb/.*$
         - ^shopping/merchant/datasources/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/datasources/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/datasources/apiv1beta/[^/]*_client_example_test\.go$
@@ -4359,7 +4359,7 @@ libraries:
         - ^shopping/merchant/datasources/apiv1beta/doc\.go$
         - ^shopping/merchant/datasources/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/datasources/apiv1beta/helpers\.go$
-        - ^shopping/merchant/datasources/apiv1beta/datasourcespb$
+        - ^shopping/merchant/datasources/apiv1beta/datasourcespb/.*$
         - ^shopping/merchant/inventories/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/inventories/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/inventories/apiv1/[^/]*_client_example_test\.go$
@@ -4368,7 +4368,7 @@ libraries:
         - ^shopping/merchant/inventories/apiv1/doc\.go$
         - ^shopping/merchant/inventories/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/inventories/apiv1/helpers\.go$
-        - ^shopping/merchant/inventories/apiv1/inventoriespb$
+        - ^shopping/merchant/inventories/apiv1/inventoriespb/.*$
         - ^shopping/merchant/inventories/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/inventories/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/inventories/apiv1beta/[^/]*_client_example_test\.go$
@@ -4377,7 +4377,7 @@ libraries:
         - ^shopping/merchant/inventories/apiv1beta/doc\.go$
         - ^shopping/merchant/inventories/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/inventories/apiv1beta/helpers\.go$
-        - ^shopping/merchant/inventories/apiv1beta/inventoriespb$
+        - ^shopping/merchant/inventories/apiv1beta/inventoriespb/.*$
         - ^shopping/merchant/issueresolution/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/issueresolution/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/issueresolution/apiv1/[^/]*_client_example_test\.go$
@@ -4386,7 +4386,7 @@ libraries:
         - ^shopping/merchant/issueresolution/apiv1/doc\.go$
         - ^shopping/merchant/issueresolution/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/issueresolution/apiv1/helpers\.go$
-        - ^shopping/merchant/issueresolution/apiv1/issueresolutionpb$
+        - ^shopping/merchant/issueresolution/apiv1/issueresolutionpb/.*$
         - ^shopping/merchant/issueresolution/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/issueresolution/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/issueresolution/apiv1beta/[^/]*_client_example_test\.go$
@@ -4395,7 +4395,7 @@ libraries:
         - ^shopping/merchant/issueresolution/apiv1beta/doc\.go$
         - ^shopping/merchant/issueresolution/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/issueresolution/apiv1beta/helpers\.go$
-        - ^shopping/merchant/issueresolution/apiv1beta/issueresolutionpb$
+        - ^shopping/merchant/issueresolution/apiv1beta/issueresolutionpb/.*$
         - ^shopping/merchant/lfp/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/lfp/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/lfp/apiv1/[^/]*_client_example_test\.go$
@@ -4404,7 +4404,7 @@ libraries:
         - ^shopping/merchant/lfp/apiv1/doc\.go$
         - ^shopping/merchant/lfp/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/lfp/apiv1/helpers\.go$
-        - ^shopping/merchant/lfp/apiv1/lfppb$
+        - ^shopping/merchant/lfp/apiv1/lfppb/.*$
         - ^shopping/merchant/lfp/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/lfp/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/lfp/apiv1beta/[^/]*_client_example_test\.go$
@@ -4413,7 +4413,7 @@ libraries:
         - ^shopping/merchant/lfp/apiv1beta/doc\.go$
         - ^shopping/merchant/lfp/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/lfp/apiv1beta/helpers\.go$
-        - ^shopping/merchant/lfp/apiv1beta/lfppb$
+        - ^shopping/merchant/lfp/apiv1beta/lfppb/.*$
         - ^shopping/merchant/notifications/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/notifications/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/notifications/apiv1/[^/]*_client_example_test\.go$
@@ -4422,7 +4422,7 @@ libraries:
         - ^shopping/merchant/notifications/apiv1/doc\.go$
         - ^shopping/merchant/notifications/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/notifications/apiv1/helpers\.go$
-        - ^shopping/merchant/notifications/apiv1/notificationspb$
+        - ^shopping/merchant/notifications/apiv1/notificationspb/.*$
         - ^shopping/merchant/notifications/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/notifications/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/notifications/apiv1beta/[^/]*_client_example_test\.go$
@@ -4431,7 +4431,7 @@ libraries:
         - ^shopping/merchant/notifications/apiv1beta/doc\.go$
         - ^shopping/merchant/notifications/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/notifications/apiv1beta/helpers\.go$
-        - ^shopping/merchant/notifications/apiv1beta/notificationspb$
+        - ^shopping/merchant/notifications/apiv1beta/notificationspb/.*$
         - ^shopping/merchant/ordertracking/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/ordertracking/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/ordertracking/apiv1/[^/]*_client_example_test\.go$
@@ -4440,7 +4440,7 @@ libraries:
         - ^shopping/merchant/ordertracking/apiv1/doc\.go$
         - ^shopping/merchant/ordertracking/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/ordertracking/apiv1/helpers\.go$
-        - ^shopping/merchant/ordertracking/apiv1/ordertrackingpb$
+        - ^shopping/merchant/ordertracking/apiv1/ordertrackingpb/.*$
         - ^shopping/merchant/ordertracking/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/ordertracking/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/ordertracking/apiv1beta/[^/]*_client_example_test\.go$
@@ -4449,7 +4449,7 @@ libraries:
         - ^shopping/merchant/ordertracking/apiv1beta/doc\.go$
         - ^shopping/merchant/ordertracking/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/ordertracking/apiv1beta/helpers\.go$
-        - ^shopping/merchant/ordertracking/apiv1beta/ordertrackingpb$
+        - ^shopping/merchant/ordertracking/apiv1beta/ordertrackingpb/.*$
         - ^shopping/merchant/products/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/products/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/products/apiv1/[^/]*_client_example_test\.go$
@@ -4458,7 +4458,7 @@ libraries:
         - ^shopping/merchant/products/apiv1/doc\.go$
         - ^shopping/merchant/products/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/products/apiv1/helpers\.go$
-        - ^shopping/merchant/products/apiv1/productspb$
+        - ^shopping/merchant/products/apiv1/productspb/.*$
         - ^shopping/merchant/products/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/products/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/products/apiv1beta/[^/]*_client_example_test\.go$
@@ -4467,7 +4467,7 @@ libraries:
         - ^shopping/merchant/products/apiv1beta/doc\.go$
         - ^shopping/merchant/products/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/products/apiv1beta/helpers\.go$
-        - ^shopping/merchant/products/apiv1beta/productspb$
+        - ^shopping/merchant/products/apiv1beta/productspb/.*$
         - ^shopping/merchant/productstudio/apiv1alpha/[^/]*_client\.go$
         - ^shopping/merchant/productstudio/apiv1alpha/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/productstudio/apiv1alpha/[^/]*_client_example_test\.go$
@@ -4476,7 +4476,7 @@ libraries:
         - ^shopping/merchant/productstudio/apiv1alpha/doc\.go$
         - ^shopping/merchant/productstudio/apiv1alpha/gapic_metadata\.json$
         - ^shopping/merchant/productstudio/apiv1alpha/helpers\.go$
-        - ^shopping/merchant/productstudio/apiv1alpha/productstudiopb$
+        - ^shopping/merchant/productstudio/apiv1alpha/productstudiopb/.*$
         - ^shopping/merchant/promotions/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/promotions/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/promotions/apiv1/[^/]*_client_example_test\.go$
@@ -4485,7 +4485,7 @@ libraries:
         - ^shopping/merchant/promotions/apiv1/doc\.go$
         - ^shopping/merchant/promotions/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/promotions/apiv1/helpers\.go$
-        - ^shopping/merchant/promotions/apiv1/promotionspb$
+        - ^shopping/merchant/promotions/apiv1/promotionspb/.*$
         - ^shopping/merchant/promotions/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/promotions/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/promotions/apiv1beta/[^/]*_client_example_test\.go$
@@ -4494,7 +4494,7 @@ libraries:
         - ^shopping/merchant/promotions/apiv1beta/doc\.go$
         - ^shopping/merchant/promotions/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/promotions/apiv1beta/helpers\.go$
-        - ^shopping/merchant/promotions/apiv1beta/promotionspb$
+        - ^shopping/merchant/promotions/apiv1beta/promotionspb/.*$
         - ^shopping/merchant/quota/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/quota/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/quota/apiv1/[^/]*_client_example_test\.go$
@@ -4503,7 +4503,7 @@ libraries:
         - ^shopping/merchant/quota/apiv1/doc\.go$
         - ^shopping/merchant/quota/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/quota/apiv1/helpers\.go$
-        - ^shopping/merchant/quota/apiv1/quotapb$
+        - ^shopping/merchant/quota/apiv1/quotapb/.*$
         - ^shopping/merchant/quota/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/quota/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/quota/apiv1beta/[^/]*_client_example_test\.go$
@@ -4512,7 +4512,7 @@ libraries:
         - ^shopping/merchant/quota/apiv1beta/doc\.go$
         - ^shopping/merchant/quota/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/quota/apiv1beta/helpers\.go$
-        - ^shopping/merchant/quota/apiv1beta/quotapb$
+        - ^shopping/merchant/quota/apiv1beta/quotapb/.*$
         - ^shopping/merchant/reports/apiv1/[^/]*_client\.go$
         - ^shopping/merchant/reports/apiv1/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/reports/apiv1/[^/]*_client_example_test\.go$
@@ -4521,7 +4521,7 @@ libraries:
         - ^shopping/merchant/reports/apiv1/doc\.go$
         - ^shopping/merchant/reports/apiv1/gapic_metadata\.json$
         - ^shopping/merchant/reports/apiv1/helpers\.go$
-        - ^shopping/merchant/reports/apiv1/reportspb$
+        - ^shopping/merchant/reports/apiv1/reportspb/.*$
         - ^shopping/merchant/reports/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/reports/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/reports/apiv1beta/[^/]*_client_example_test\.go$
@@ -4530,7 +4530,7 @@ libraries:
         - ^shopping/merchant/reports/apiv1beta/doc\.go$
         - ^shopping/merchant/reports/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/reports/apiv1beta/helpers\.go$
-        - ^shopping/merchant/reports/apiv1beta/reportspb$
+        - ^shopping/merchant/reports/apiv1beta/reportspb/.*$
         - ^shopping/merchant/reviews/apiv1beta/[^/]*_client\.go$
         - ^shopping/merchant/reviews/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^shopping/merchant/reviews/apiv1beta/[^/]*_client_example_test\.go$
@@ -4539,7 +4539,7 @@ libraries:
         - ^shopping/merchant/reviews/apiv1beta/doc\.go$
         - ^shopping/merchant/reviews/apiv1beta/gapic_metadata\.json$
         - ^shopping/merchant/reviews/apiv1beta/helpers\.go$
-        - ^shopping/merchant/reviews/apiv1beta/reviewspb$
+        - ^shopping/merchant/reviews/apiv1beta/reviewspb/.*$
     - id: spanner
       version: 1.84.1
       last_generated_commit: ""
@@ -4570,7 +4570,7 @@ libraries:
         - ^spanner/adapter/apiv1/doc\.go$
         - ^spanner/adapter/apiv1/gapic_metadata\.json$
         - ^spanner/adapter/apiv1/helpers\.go$
-        - ^spanner/adapter/apiv1/adapterpb$
+        - ^spanner/adapter/apiv1/adapterpb/.*$
         - ^spanner/admin/database/apiv1/[^/]*_client\.go$
         - ^spanner/admin/database/apiv1/[^/]*_client_example_go123_test\.go$
         - ^spanner/admin/database/apiv1/[^/]*_client_example_test\.go$
@@ -4579,7 +4579,7 @@ libraries:
         - ^spanner/admin/database/apiv1/doc\.go$
         - ^spanner/admin/database/apiv1/gapic_metadata\.json$
         - ^spanner/admin/database/apiv1/helpers\.go$
-        - ^spanner/admin/database/apiv1/databasepb$
+        - ^spanner/admin/database/apiv1/databasepb/.*$
         - ^spanner/admin/instance/apiv1/[^/]*_client\.go$
         - ^spanner/admin/instance/apiv1/[^/]*_client_example_go123_test\.go$
         - ^spanner/admin/instance/apiv1/[^/]*_client_example_test\.go$
@@ -4588,7 +4588,7 @@ libraries:
         - ^spanner/admin/instance/apiv1/doc\.go$
         - ^spanner/admin/instance/apiv1/gapic_metadata\.json$
         - ^spanner/admin/instance/apiv1/helpers\.go$
-        - ^spanner/admin/instance/apiv1/instancepb$
+        - ^spanner/admin/instance/apiv1/instancepb/.*$
         - ^spanner/apiv1/[^/]*_client\.go$
         - ^spanner/apiv1/[^/]*_client_example_go123_test\.go$
         - ^spanner/apiv1/[^/]*_client_example_test\.go$
@@ -4597,7 +4597,7 @@ libraries:
         - ^spanner/apiv1/doc\.go$
         - ^spanner/apiv1/gapic_metadata\.json$
         - ^spanner/apiv1/helpers\.go$
-        - ^spanner/apiv1/spannerpb$
+        - ^spanner/apiv1/spannerpb/.*$
         - ^spanner/executor/apiv1/[^/]*_client\.go$
         - ^spanner/executor/apiv1/[^/]*_client_example_go123_test\.go$
         - ^spanner/executor/apiv1/[^/]*_client_example_test\.go$
@@ -4606,7 +4606,7 @@ libraries:
         - ^spanner/executor/apiv1/doc\.go$
         - ^spanner/executor/apiv1/gapic_metadata\.json$
         - ^spanner/executor/apiv1/helpers\.go$
-        - ^spanner/executor/apiv1/executorpb$
+        - ^spanner/executor/apiv1/executorpb/.*$
     - id: speech
       version: 1.28.0
       last_generated_commit: ""
@@ -4633,7 +4633,7 @@ libraries:
         - ^speech/apiv1/doc\.go$
         - ^speech/apiv1/gapic_metadata\.json$
         - ^speech/apiv1/helpers\.go$
-        - ^speech/apiv1/speechpb$
+        - ^speech/apiv1/speechpb/.*$
         - ^speech/apiv1p1beta1/[^/]*_client\.go$
         - ^speech/apiv1p1beta1/[^/]*_client_example_go123_test\.go$
         - ^speech/apiv1p1beta1/[^/]*_client_example_test\.go$
@@ -4642,7 +4642,7 @@ libraries:
         - ^speech/apiv1p1beta1/doc\.go$
         - ^speech/apiv1p1beta1/gapic_metadata\.json$
         - ^speech/apiv1p1beta1/helpers\.go$
-        - ^speech/apiv1p1beta1/speechpb$
+        - ^speech/apiv1p1beta1/speechpb/.*$
         - ^speech/apiv2/[^/]*_client\.go$
         - ^speech/apiv2/[^/]*_client_example_go123_test\.go$
         - ^speech/apiv2/[^/]*_client_example_test\.go$
@@ -4651,7 +4651,7 @@ libraries:
         - ^speech/apiv2/doc\.go$
         - ^speech/apiv2/gapic_metadata\.json$
         - ^speech/apiv2/helpers\.go$
-        - ^speech/apiv2/speechpb$
+        - ^speech/apiv2/speechpb/.*$
     - id: storagebatchoperations
       version: 0.1.0
       last_generated_commit: ""
@@ -4674,7 +4674,7 @@ libraries:
         - ^storagebatchoperations/apiv1/doc\.go$
         - ^storagebatchoperations/apiv1/gapic_metadata\.json$
         - ^storagebatchoperations/apiv1/helpers\.go$
-        - ^storagebatchoperations/apiv1/storagebatchoperationspb$
+        - ^storagebatchoperations/apiv1/storagebatchoperationspb/.*$
     - id: storageinsights
       version: 1.2.0
       last_generated_commit: ""
@@ -4697,7 +4697,7 @@ libraries:
         - ^storageinsights/apiv1/doc\.go$
         - ^storageinsights/apiv1/gapic_metadata\.json$
         - ^storageinsights/apiv1/helpers\.go$
-        - ^storageinsights/apiv1/storageinsightspb$
+        - ^storageinsights/apiv1/storageinsightspb/.*$
     - id: storagetransfer
       version: 1.13.0
       last_generated_commit: ""
@@ -4720,7 +4720,7 @@ libraries:
         - ^storagetransfer/apiv1/doc\.go$
         - ^storagetransfer/apiv1/gapic_metadata\.json$
         - ^storagetransfer/apiv1/helpers\.go$
-        - ^storagetransfer/apiv1/storagetransferpb$
+        - ^storagetransfer/apiv1/storagetransferpb/.*$
     - id: streetview
       version: 0.2.5
       last_generated_commit: ""
@@ -4743,7 +4743,7 @@ libraries:
         - ^streetview/publish/apiv1/doc\.go$
         - ^streetview/publish/apiv1/gapic_metadata\.json$
         - ^streetview/publish/apiv1/helpers\.go$
-        - ^streetview/publish/apiv1/publishpb$
+        - ^streetview/publish/apiv1/publishpb/.*$
     - id: support
       version: 1.4.0
       last_generated_commit: ""
@@ -4768,7 +4768,7 @@ libraries:
         - ^support/apiv2/doc\.go$
         - ^support/apiv2/gapic_metadata\.json$
         - ^support/apiv2/helpers\.go$
-        - ^support/apiv2/supportpb$
+        - ^support/apiv2/supportpb/.*$
         - ^support/apiv2beta/[^/]*_client\.go$
         - ^support/apiv2beta/[^/]*_client_example_go123_test\.go$
         - ^support/apiv2beta/[^/]*_client_example_test\.go$
@@ -4777,7 +4777,7 @@ libraries:
         - ^support/apiv2beta/doc\.go$
         - ^support/apiv2beta/gapic_metadata\.json$
         - ^support/apiv2beta/helpers\.go$
-        - ^support/apiv2beta/supportpb$
+        - ^support/apiv2beta/supportpb/.*$
     - id: talent
       version: 1.8.3
       last_generated_commit: ""
@@ -4802,7 +4802,7 @@ libraries:
         - ^talent/apiv4/doc\.go$
         - ^talent/apiv4/gapic_metadata\.json$
         - ^talent/apiv4/helpers\.go$
-        - ^talent/apiv4/talentpb$
+        - ^talent/apiv4/talentpb/.*$
         - ^talent/apiv4beta1/[^/]*_client\.go$
         - ^talent/apiv4beta1/[^/]*_client_example_go123_test\.go$
         - ^talent/apiv4beta1/[^/]*_client_example_test\.go$
@@ -4811,7 +4811,7 @@ libraries:
         - ^talent/apiv4beta1/doc\.go$
         - ^talent/apiv4beta1/gapic_metadata\.json$
         - ^talent/apiv4beta1/helpers\.go$
-        - ^talent/apiv4beta1/talentpb$
+        - ^talent/apiv4beta1/talentpb/.*$
     - id: telcoautomation
       version: 1.1.5
       last_generated_commit: ""
@@ -4834,7 +4834,7 @@ libraries:
         - ^telcoautomation/apiv1/doc\.go$
         - ^telcoautomation/apiv1/gapic_metadata\.json$
         - ^telcoautomation/apiv1/helpers\.go$
-        - ^telcoautomation/apiv1/telcoautomationpb$
+        - ^telcoautomation/apiv1/telcoautomationpb/.*$
     - id: texttospeech
       version: 1.13.0
       last_generated_commit: ""
@@ -4857,7 +4857,7 @@ libraries:
         - ^texttospeech/apiv1/doc\.go$
         - ^texttospeech/apiv1/gapic_metadata\.json$
         - ^texttospeech/apiv1/helpers\.go$
-        - ^texttospeech/apiv1/texttospeechpb$
+        - ^texttospeech/apiv1/texttospeechpb/.*$
     - id: tpu
       version: 1.8.3
       last_generated_commit: ""
@@ -4880,7 +4880,7 @@ libraries:
         - ^tpu/apiv1/doc\.go$
         - ^tpu/apiv1/gapic_metadata\.json$
         - ^tpu/apiv1/helpers\.go$
-        - ^tpu/apiv1/tpupb$
+        - ^tpu/apiv1/tpupb/.*$
     - id: trace
       version: 1.11.6
       last_generated_commit: ""
@@ -4905,7 +4905,7 @@ libraries:
         - ^trace/apiv1/doc\.go$
         - ^trace/apiv1/gapic_metadata\.json$
         - ^trace/apiv1/helpers\.go$
-        - ^trace/apiv1/tracepb$
+        - ^trace/apiv1/tracepb/.*$
         - ^trace/apiv2/[^/]*_client\.go$
         - ^trace/apiv2/[^/]*_client_example_go123_test\.go$
         - ^trace/apiv2/[^/]*_client_example_test\.go$
@@ -4914,7 +4914,7 @@ libraries:
         - ^trace/apiv2/doc\.go$
         - ^trace/apiv2/gapic_metadata\.json$
         - ^trace/apiv2/helpers\.go$
-        - ^trace/apiv2/tracepb$
+        - ^trace/apiv2/tracepb/.*$
     - id: translate
       version: 1.12.6
       last_generated_commit: ""
@@ -4937,7 +4937,7 @@ libraries:
         - ^translate/apiv3/doc\.go$
         - ^translate/apiv3/gapic_metadata\.json$
         - ^translate/apiv3/helpers\.go$
-        - ^translate/apiv3/translatepb$
+        - ^translate/apiv3/translatepb/.*$
     - id: vertexai
       version: 0.15.0
       last_generated_commit: ""
@@ -4976,7 +4976,7 @@ libraries:
         - ^video/livestream/apiv1/doc\.go$
         - ^video/livestream/apiv1/gapic_metadata\.json$
         - ^video/livestream/apiv1/helpers\.go$
-        - ^video/livestream/apiv1/livestreampb$
+        - ^video/livestream/apiv1/livestreampb/.*$
         - ^video/stitcher/apiv1/[^/]*_client\.go$
         - ^video/stitcher/apiv1/[^/]*_client_example_go123_test\.go$
         - ^video/stitcher/apiv1/[^/]*_client_example_test\.go$
@@ -4985,7 +4985,7 @@ libraries:
         - ^video/stitcher/apiv1/doc\.go$
         - ^video/stitcher/apiv1/gapic_metadata\.json$
         - ^video/stitcher/apiv1/helpers\.go$
-        - ^video/stitcher/apiv1/stitcherpb$
+        - ^video/stitcher/apiv1/stitcherpb/.*$
         - ^video/transcoder/apiv1/[^/]*_client\.go$
         - ^video/transcoder/apiv1/[^/]*_client_example_go123_test\.go$
         - ^video/transcoder/apiv1/[^/]*_client_example_test\.go$
@@ -4994,7 +4994,7 @@ libraries:
         - ^video/transcoder/apiv1/doc\.go$
         - ^video/transcoder/apiv1/gapic_metadata\.json$
         - ^video/transcoder/apiv1/helpers\.go$
-        - ^video/transcoder/apiv1/transcoderpb$
+        - ^video/transcoder/apiv1/transcoderpb/.*$
     - id: videointelligence
       version: 1.12.6
       last_generated_commit: ""
@@ -5021,7 +5021,7 @@ libraries:
         - ^videointelligence/apiv1/doc\.go$
         - ^videointelligence/apiv1/gapic_metadata\.json$
         - ^videointelligence/apiv1/helpers\.go$
-        - ^videointelligence/apiv1/videointelligencepb$
+        - ^videointelligence/apiv1/videointelligencepb/.*$
         - ^videointelligence/apiv1beta2/[^/]*_client\.go$
         - ^videointelligence/apiv1beta2/[^/]*_client_example_go123_test\.go$
         - ^videointelligence/apiv1beta2/[^/]*_client_example_test\.go$
@@ -5030,7 +5030,7 @@ libraries:
         - ^videointelligence/apiv1beta2/doc\.go$
         - ^videointelligence/apiv1beta2/gapic_metadata\.json$
         - ^videointelligence/apiv1beta2/helpers\.go$
-        - ^videointelligence/apiv1beta2/videointelligencepb$
+        - ^videointelligence/apiv1beta2/videointelligencepb/.*$
         - ^videointelligence/apiv1p3beta1/[^/]*_client\.go$
         - ^videointelligence/apiv1p3beta1/[^/]*_client_example_go123_test\.go$
         - ^videointelligence/apiv1p3beta1/[^/]*_client_example_test\.go$
@@ -5039,7 +5039,7 @@ libraries:
         - ^videointelligence/apiv1p3beta1/doc\.go$
         - ^videointelligence/apiv1p3beta1/gapic_metadata\.json$
         - ^videointelligence/apiv1p3beta1/helpers\.go$
-        - ^videointelligence/apiv1p3beta1/videointelligencepb$
+        - ^videointelligence/apiv1p3beta1/videointelligencepb/.*$
     - id: vision
       version: 2.9.5
       last_generated_commit: ""
@@ -5064,7 +5064,7 @@ libraries:
         - ^vision/apiv1/doc\.go$
         - ^vision/apiv1/gapic_metadata\.json$
         - ^vision/apiv1/helpers\.go$
-        - ^vision/apiv1/visionpb$
+        - ^vision/apiv1/visionpb/.*$
         - ^vision/apiv1p1beta1/[^/]*_client\.go$
         - ^vision/apiv1p1beta1/[^/]*_client_example_go123_test\.go$
         - ^vision/apiv1p1beta1/[^/]*_client_example_test\.go$
@@ -5073,7 +5073,7 @@ libraries:
         - ^vision/apiv1p1beta1/doc\.go$
         - ^vision/apiv1p1beta1/gapic_metadata\.json$
         - ^vision/apiv1p1beta1/helpers\.go$
-        - ^vision/apiv1p1beta1/visionpb$
+        - ^vision/apiv1p1beta1/visionpb/.*$
     - id: visionai
       version: 0.4.5
       last_generated_commit: ""
@@ -5096,7 +5096,7 @@ libraries:
         - ^visionai/apiv1/doc\.go$
         - ^visionai/apiv1/gapic_metadata\.json$
         - ^visionai/apiv1/helpers\.go$
-        - ^visionai/apiv1/visionaipb$
+        - ^visionai/apiv1/visionaipb/.*$
     - id: vmmigration
       version: 1.8.6
       last_generated_commit: ""
@@ -5119,7 +5119,7 @@ libraries:
         - ^vmmigration/apiv1/doc\.go$
         - ^vmmigration/apiv1/gapic_metadata\.json$
         - ^vmmigration/apiv1/helpers\.go$
-        - ^vmmigration/apiv1/vmmigrationpb$
+        - ^vmmigration/apiv1/vmmigrationpb/.*$
     - id: vmwareengine
       version: 1.3.5
       last_generated_commit: ""
@@ -5142,7 +5142,7 @@ libraries:
         - ^vmwareengine/apiv1/doc\.go$
         - ^vmwareengine/apiv1/gapic_metadata\.json$
         - ^vmwareengine/apiv1/helpers\.go$
-        - ^vmwareengine/apiv1/vmwareenginepb$
+        - ^vmwareengine/apiv1/vmwareenginepb/.*$
     - id: vpcaccess
       version: 1.8.6
       last_generated_commit: ""
@@ -5165,7 +5165,7 @@ libraries:
         - ^vpcaccess/apiv1/doc\.go$
         - ^vpcaccess/apiv1/gapic_metadata\.json$
         - ^vpcaccess/apiv1/helpers\.go$
-        - ^vpcaccess/apiv1/vpcaccesspb$
+        - ^vpcaccess/apiv1/vpcaccesspb/.*$
     - id: webrisk
       version: 1.11.1
       last_generated_commit: ""
@@ -5190,7 +5190,7 @@ libraries:
         - ^webrisk/apiv1/doc\.go$
         - ^webrisk/apiv1/gapic_metadata\.json$
         - ^webrisk/apiv1/helpers\.go$
-        - ^webrisk/apiv1/webriskpb$
+        - ^webrisk/apiv1/webriskpb/.*$
         - ^webrisk/apiv1beta1/[^/]*_client\.go$
         - ^webrisk/apiv1beta1/[^/]*_client_example_go123_test\.go$
         - ^webrisk/apiv1beta1/[^/]*_client_example_test\.go$
@@ -5199,7 +5199,7 @@ libraries:
         - ^webrisk/apiv1beta1/doc\.go$
         - ^webrisk/apiv1beta1/gapic_metadata\.json$
         - ^webrisk/apiv1beta1/helpers\.go$
-        - ^webrisk/apiv1beta1/webriskpb$
+        - ^webrisk/apiv1beta1/webriskpb/.*$
     - id: websecurityscanner
       version: 1.7.6
       last_generated_commit: ""
@@ -5222,7 +5222,7 @@ libraries:
         - ^websecurityscanner/apiv1/doc\.go$
         - ^websecurityscanner/apiv1/gapic_metadata\.json$
         - ^websecurityscanner/apiv1/helpers\.go$
-        - ^websecurityscanner/apiv1/websecurityscannerpb$
+        - ^websecurityscanner/apiv1/websecurityscannerpb/.*$
     - id: workflows
       version: 1.14.2
       last_generated_commit: ""
@@ -5251,7 +5251,7 @@ libraries:
         - ^workflows/apiv1/doc\.go$
         - ^workflows/apiv1/gapic_metadata\.json$
         - ^workflows/apiv1/helpers\.go$
-        - ^workflows/apiv1/workflowspb$
+        - ^workflows/apiv1/workflowspb/.*$
         - ^workflows/apiv1beta/[^/]*_client\.go$
         - ^workflows/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^workflows/apiv1beta/[^/]*_client_example_test\.go$
@@ -5260,7 +5260,7 @@ libraries:
         - ^workflows/apiv1beta/doc\.go$
         - ^workflows/apiv1beta/gapic_metadata\.json$
         - ^workflows/apiv1beta/helpers\.go$
-        - ^workflows/apiv1beta/workflowspb$
+        - ^workflows/apiv1beta/workflowspb/.*$
         - ^workflows/executions/apiv1/[^/]*_client\.go$
         - ^workflows/executions/apiv1/[^/]*_client_example_go123_test\.go$
         - ^workflows/executions/apiv1/[^/]*_client_example_test\.go$
@@ -5269,7 +5269,7 @@ libraries:
         - ^workflows/executions/apiv1/doc\.go$
         - ^workflows/executions/apiv1/gapic_metadata\.json$
         - ^workflows/executions/apiv1/helpers\.go$
-        - ^workflows/executions/apiv1/executionspb$
+        - ^workflows/executions/apiv1/executionspb/.*$
         - ^workflows/executions/apiv1beta/[^/]*_client\.go$
         - ^workflows/executions/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^workflows/executions/apiv1beta/[^/]*_client_example_test\.go$
@@ -5278,7 +5278,7 @@ libraries:
         - ^workflows/executions/apiv1beta/doc\.go$
         - ^workflows/executions/apiv1beta/gapic_metadata\.json$
         - ^workflows/executions/apiv1beta/helpers\.go$
-        - ^workflows/executions/apiv1beta/executionspb$
+        - ^workflows/executions/apiv1beta/executionspb/.*$
     - id: workstations
       version: 1.1.5
       last_generated_commit: ""
@@ -5303,7 +5303,7 @@ libraries:
         - ^workstations/apiv1/doc\.go$
         - ^workstations/apiv1/gapic_metadata\.json$
         - ^workstations/apiv1/helpers\.go$
-        - ^workstations/apiv1/workstationspb$
+        - ^workstations/apiv1/workstationspb/.*$
         - ^workstations/apiv1beta/[^/]*_client\.go$
         - ^workstations/apiv1beta/[^/]*_client_example_go123_test\.go$
         - ^workstations/apiv1beta/[^/]*_client_example_test\.go$
@@ -5312,4 +5312,4 @@ libraries:
         - ^workstations/apiv1beta/doc\.go$
         - ^workstations/apiv1beta/gapic_metadata\.json$
         - ^workstations/apiv1beta/helpers\.go$
-        - ^workstations/apiv1beta/workstationspb$
+        - ^workstations/apiv1beta/workstationspb/.*$
