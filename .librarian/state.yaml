@@ -4698,6 +4698,7 @@ libraries:
         - ^compute/apiv1/doc\.go$
         - ^compute/apiv1/gapic_metadata\.json$
         - ^compute/apiv1/helpers\.go$
+        - ^compute/apiv1/operations\.go$
         - ^compute/apiv1/computepb/.*$
         - ^compute/apiv1beta/[^/]*_client\.go$
         - ^compute/apiv1beta/[^/]*_client_example_go123_test\.go$
@@ -4707,4 +4708,5 @@ libraries:
         - ^compute/apiv1beta/doc\.go$
         - ^compute/apiv1beta/gapic_metadata\.json$
         - ^compute/apiv1beta/helpers\.go$
+        - ^compute/apiv1beta/operations\.go$
         - ^compute/apiv1beta/computepb/.*$
