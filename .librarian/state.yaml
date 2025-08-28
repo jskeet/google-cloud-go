@@ -4779,12 +4779,12 @@ libraries:
         - ^iam/credentials/apiv1/credentialspb/.*$
     - id: oslogin
       version: 1.14.6
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/cloud/oslogin/v1
-          service_config: ""
+          service_config: oslogin_v1.yaml
         - path: google/cloud/oslogin/v1beta
-          service_config: ""
+          service_config: oslogin_v1beta.yaml
         - path: google/cloud/oslogin/common
           service_config: ""
       source_roots:
