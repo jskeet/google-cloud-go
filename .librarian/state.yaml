@@ -4813,3 +4813,4 @@ libraries:
         - ^oslogin/apiv1beta/gapic_metadata\.json$
         - ^oslogin/apiv1beta/helpers\.go$
         - ^oslogin/apiv1beta/osloginpb/.*$
+        - ^oslogin/common/commonpb/.*$
