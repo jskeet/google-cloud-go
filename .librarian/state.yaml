@@ -5151,3 +5151,12 @@ libraries:
         - ^firestore/apiv1/gapic_metadata\.json$
         - ^firestore/apiv1/helpers\.go$
         - ^firestore/apiv1/firestorepb/.*$
+        - ^firestore/apiv1/admin/[^/]*_client\.go$
+        - ^firestore/apiv1/admin/[^/]*_client_example_go123_test\.go$
+        - ^firestore/apiv1/admin/[^/]*_client_example_test\.go$
+        - ^firestore/apiv1/admin/auxiliary\.go$
+        - ^firestore/apiv1/admin/auxiliary_go123\.go$
+        - ^firestore/apiv1/admin/doc\.go$
+        - ^firestore/apiv1/admin/gapic_metadata\.json$
+        - ^firestore/apiv1/admin/helpers\.go$
+        - ^firestore/apiv1/admin/adminpb/.*$
