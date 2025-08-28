@@ -5128,12 +5128,12 @@ libraries:
         - ^shopping/type/typepb/.*$
     - id: firestore
       version: 1.18.0
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/firestore/admin/v1
-          service_config: ""
+          service_config: firestore_v1.yaml
         - path: google/firestore/v1
-          service_config: ""
+          service_config: firestore_v1.yaml
       source_roots:
         - firestore
         - internal/generated/snippets/firestore
