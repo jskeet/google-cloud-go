@@ -64,6 +64,13 @@ modules:
   - name: recaptchaenterprise
     module_path_version: v2
 
+  - name: trace
+    apis:
+      - path: google/devtools/cloudtrace/v1
+        client_directory: apiv1
+      - path: google/devtools/cloudtrace/v2
+        client_directory: apiv2
+
   - name: translate
     apis:
       - path: google/cloud/translate/v3
