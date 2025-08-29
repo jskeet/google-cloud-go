@@ -5654,14 +5654,14 @@ libraries:
         - ^cloudbuild/apiv2/cloudbuildpb/.*$
     - id: monitoring
       version: 1.24.2
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/monitoring/dashboard/v1
-          service_config: ""
+          service_config: monitoring.yaml
         - path: google/monitoring/metricsscope/v1
-          service_config: ""
+          service_config: monitoring.yaml
         - path: google/monitoring/v3
-          service_config: ""
+          service_config: monitoring.yaml
       source_roots:
         - monitoring
         - internal/generated/snippets/monitoring
