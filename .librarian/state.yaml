@@ -5634,15 +5634,15 @@ libraries:
         - ^cloudbuild/go\.mod$
         - ^cloudbuild/go\.sum$
         - ^internal/generated/snippets/cloudbuild/
-        - ^cloudbuild/apiv1/[^/]*_client\.go$
-        - ^cloudbuild/apiv1/[^/]*_client_example_go123_test\.go$
-        - ^cloudbuild/apiv1/[^/]*_client_example_test\.go$
-        - ^cloudbuild/apiv1/auxiliary\.go$
-        - ^cloudbuild/apiv1/auxiliary_go123\.go$
-        - ^cloudbuild/apiv1/doc\.go$
-        - ^cloudbuild/apiv1/gapic_metadata\.json$
-        - ^cloudbuild/apiv1/helpers\.go$
-        - ^cloudbuild/apiv1/cloudbuildpb/.*$
+        - ^cloudbuild/apiv1/v2/[^/]*_client\.go$
+        - ^cloudbuild/apiv1/v2/[^/]*_client_example_go123_test\.go$
+        - ^cloudbuild/apiv1/v2/[^/]*_client_example_test\.go$
+        - ^cloudbuild/apiv1/v2/auxiliary\.go$
+        - ^cloudbuild/apiv1/v2/auxiliary_go123\.go$
+        - ^cloudbuild/apiv1/v2/doc\.go$
+        - ^cloudbuild/apiv1/v2/gapic_metadata\.json$
+        - ^cloudbuild/apiv1/v2/helpers\.go$
+        - ^cloudbuild/apiv1/v2/cloudbuildpb/.*$
         - ^cloudbuild/apiv2/[^/]*_client\.go$
         - ^cloudbuild/apiv2/[^/]*_client_example_go123_test\.go$
         - ^cloudbuild/apiv2/[^/]*_client_example_test\.go$
