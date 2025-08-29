@@ -5274,3 +5274,26 @@ libraries:
         - ^recaptchaenterprise/apiv1beta1/gapic_metadata\.json$
         - ^recaptchaenterprise/apiv1beta1/helpers\.go$
         - ^recaptchaenterprise/apiv1beta1/recaptchaenterprisepb/.*$
+    - id: longrunning
+      version: 0.6.7
+      last_generated_commit: ""
+      apis:
+        - path: google/longrunning
+          service_config: ""
+      source_roots:
+        - longrunning
+        - internal/generated/snippets/longrunning
+      preserve_regex: []
+      remove_regex:
+        - ^longrunning/go\.mod$
+        - ^longrunning/go\.sum$
+        - ^internal/generated/snippets/longrunning/
+        - ^longrunning/autogen/[^/]*_client\.go$
+        - ^longrunning/autogen/[^/]*_client_example_go123_test\.go$
+        - ^longrunning/autogen/[^/]*_client_example_test\.go$
+        - ^longrunning/autogen/auxiliary\.go$
+        - ^longrunning/autogen/auxiliary_go123\.go$
+        - ^longrunning/autogen/doc\.go$
+        - ^longrunning/autogen/gapic_metadata\.json$
+        - ^longrunning/autogen/helpers\.go$
+        - ^longrunning/autogen/longrunningpb/.*$
