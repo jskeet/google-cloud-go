@@ -5208,12 +5208,12 @@ libraries:
         - ^dataproc/apiv1/dataprocpb/.*$
     - id: vision
       version: 2.9.5
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/cloud/vision/v1
-          service_config: ""
+          service_config: vision_v1.yaml
         - path: google/cloud/vision/v1p1beta1
-          service_config: ""
+          service_config: vision_v1p1beta1.yaml
       source_roots:
         - vision
         - internal/generated/snippets/vision
@@ -5245,9 +5245,9 @@ libraries:
       last_generated_commit: ""
       apis:
         - path: google/cloud/recaptchaenterprise/v1
-          service_config: ""
+          service_config: recaptchaenterprise_v1.yaml
         - path: google/cloud/recaptchaenterprise/v1beta1
-          service_config: ""
+          service_config: recaptchaenterprise_v1beta1.yaml
       source_roots:
         - recaptchaenterprise
         - internal/generated/snippets/recaptchaenterprise
