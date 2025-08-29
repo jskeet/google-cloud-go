@@ -5276,10 +5276,10 @@ libraries:
         - ^recaptchaenterprise/apiv1beta1/recaptchaenterprisepb/.*$
     - id: longrunning
       version: 0.6.7
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/longrunning
-          service_config: ""
+          service_config: longrunning.yaml
       source_roots:
         - longrunning
         - internal/generated/snippets/longrunning
