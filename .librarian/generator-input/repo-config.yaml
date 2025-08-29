@@ -1,4 +1,5 @@
 # Configuration for modules where the logic to derive values from elsewhere fails.
+foo: barba
 modules:
   - name: bigquery
     apis:
