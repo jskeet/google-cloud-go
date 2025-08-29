@@ -5329,3 +5329,37 @@ libraries:
         - ^bigtable/go\.sum$
         - ^bigtable/admin/apiv2/adminpb/.*$
         - ^bigtable/apiv2/bigtablepb/.*$
+    - id: storage
+      version: 1.56.1
+      last_generated_commit: ""
+      apis:
+        - path: google/storage/control/v2
+          service_config: ""
+        - path: google/storage/v2
+          service_config: ""
+      source_roots:
+        - storage
+        - internal/generated/snippets/storage
+      preserve_regex: []
+      remove_regex:
+        - ^storage/go\.mod$
+        - ^storage/go\.sum$
+        - ^internal/generated/snippets/storage/
+        - ^storage/control/apiv2/[^/]*_client\.go$
+        - ^storage/control/apiv2/[^/]*_client_example_go123_test\.go$
+        - ^storage/control/apiv2/[^/]*_client_example_test\.go$
+        - ^storage/control/apiv2/auxiliary\.go$
+        - ^storage/control/apiv2/auxiliary_go123\.go$
+        - ^storage/control/apiv2/doc\.go$
+        - ^storage/control/apiv2/gapic_metadata\.json$
+        - ^storage/control/apiv2/helpers\.go$
+        - ^storage/control/apiv2/controlpb/.*$
+        - ^storage/internal/apiv2/[^/]*_client\.go$
+        - ^storage/internal/apiv2/[^/]*_client_example_go123_test\.go$
+        - ^storage/internal/apiv2/[^/]*_client_example_test\.go$
+        - ^storage/internal/apiv2/auxiliary\.go$
+        - ^storage/internal/apiv2/auxiliary_go123\.go$
+        - ^storage/internal/apiv2/doc\.go$
+        - ^storage/internal/apiv2/gapic_metadata\.json$
+        - ^storage/internal/apiv2/helpers\.go$
+        - ^storage/internal/apiv2/internalpb/.*$
