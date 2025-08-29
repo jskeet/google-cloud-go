@@ -1,5 +1,5 @@
 # Configuration for modules where the logic to derive values from elsewhere fails.
-modules:
+modules2:
   - name: bigquery
     apis:
       - path: google/bigquery/v2
