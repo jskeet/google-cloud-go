@@ -5299,12 +5299,12 @@ libraries:
         - ^longrunning/autogen/longrunningpb/.*$
     - id: datastore
       version: 1.20.0
-      last_generated_commit: ""
+      last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
       apis:
         - path: google/datastore/admin/v1
-          service_config: ""
+          service_config: datastore_v1.yaml
         - path: google/datastore/v1
-          service_config: ""
+          service_config: datastore_v1.yaml
       source_roots:
         - datastore
         - internal/generated/snippets/datastore
