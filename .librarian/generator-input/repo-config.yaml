@@ -20,11 +20,11 @@ modules:
   - name: cloudtasks
     apis:
       - path: google/cloud/tasks/v2
-        client_directory: v2
+        client_directory: apiv2
       - path: google/cloud/tasks/v2beta2
-        client_directory: v2beta2
+        client_directory: apiv2beta2
       - path: google/cloud/tasks/v2beta3
-        client_directory: v2beta3
+        client_directory: apiv2beta3
 
   - name: dataproc
     module_path_version: v2
@@ -47,9 +47,9 @@ modules:
   - name: maps
     apis:
       - path: google/maps/fleetengine/v1
-        proto_package: google.maps.fleetengine.v1
+        proto_package: maps.fleetengine.v1
       - path: google/maps/fleetengine/delivery/v1
-        proto_package: google.maps.fleetengine.delivery/v1
+        proto_package: maps.fleetengine.delivery.v1
 
   - name: monitoring
     apis:
