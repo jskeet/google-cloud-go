@@ -1,3 +1,4 @@
+# Configuration for modules where the logic to derive values from elsewhere fails.
 modules:
   - name: bigquery
     apis:
