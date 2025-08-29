@@ -3528,7 +3528,6 @@ libraries:
         - internal/generated/snippets/run
       preserve_regex:
         - ^run/apiv2/locations_client\.go$
-
       remove_regex:
         - ^run/go\.mod$
         - ^run/go\.sum$
@@ -4473,7 +4472,7 @@ libraries:
         - vmmigration
         - internal/generated/snippets/vmmigration
       preserve_regex:
-        - ^datastream/apiv1/iam_policy_client\.go$
+        - ^vmmigration/apiv1/iam_policy_client\.go$
       remove_regex:
         - ^vmmigration/go\.mod$
         - ^vmmigration/go\.sum$
@@ -5166,7 +5165,6 @@ libraries:
         - ^firestore/apiv1/admin/gapic_metadata\.json$
         - ^firestore/apiv1/admin/helpers\.go$
         - ^firestore/apiv1/admin/adminpb/.*$
-
     - id: dataproc
       version: 2.14.0
       last_generated_commit: 6914b3387f851ae8411231e4e57fefa5290eb9f8
