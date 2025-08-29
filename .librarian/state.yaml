@@ -5652,3 +5652,48 @@ libraries:
         - ^cloudbuild/apiv2/gapic_metadata\.json$
         - ^cloudbuild/apiv2/helpers\.go$
         - ^cloudbuild/apiv2/cloudbuildpb/.*$
+    - id: monitoring
+      version: 1.24.2
+      last_generated_commit: ""
+      apis:
+        - path: google/monitoring/dashboard/v1
+          service_config: ""
+        - path: google/monitoring/metricsscope/v1
+          service_config: ""
+        - path: google/monitoring/v3
+          service_config: ""
+      source_roots:
+        - monitoring
+        - internal/generated/snippets/monitoring
+      preserve_regex: []
+      remove_regex:
+        - ^monitoring/go\.mod$
+        - ^monitoring/go\.sum$
+        - ^internal/generated/snippets/monitoring/
+        - ^monitoring/apiv3/[^/]*_client\.go$
+        - ^monitoring/apiv3/[^/]*_client_example_go123_test\.go$
+        - ^monitoring/apiv3/[^/]*_client_example_test\.go$
+        - ^monitoring/apiv3/auxiliary\.go$
+        - ^monitoring/apiv3/auxiliary_go123\.go$
+        - ^monitoring/apiv3/doc\.go$
+        - ^monitoring/apiv3/gapic_metadata\.json$
+        - ^monitoring/apiv3/helpers\.go$
+        - ^monitoring/apiv3/monitoringpb/.*$
+        - ^monitoring/dashboard/apiv1/[^/]*_client\.go$
+        - ^monitoring/dashboard/apiv1/[^/]*_client_example_go123_test\.go$
+        - ^monitoring/dashboard/apiv1/[^/]*_client_example_test\.go$
+        - ^monitoring/dashboard/apiv1/auxiliary\.go$
+        - ^monitoring/dashboard/apiv1/auxiliary_go123\.go$
+        - ^monitoring/dashboard/apiv1/doc\.go$
+        - ^monitoring/dashboard/apiv1/gapic_metadata\.json$
+        - ^monitoring/dashboard/apiv1/helpers\.go$
+        - ^monitoring/dashboard/apiv1/dashboardpb/.*$
+        - ^monitoring/metricsscope/apiv1/[^/]*_client\.go$
+        - ^monitoring/metricsscope/apiv1/[^/]*_client_example_go123_test\.go$
+        - ^monitoring/metricsscope/apiv1/[^/]*_client_example_test\.go$
+        - ^monitoring/metricsscope/apiv1/auxiliary\.go$
+        - ^monitoring/metricsscope/apiv1/auxiliary_go123\.go$
+        - ^monitoring/metricsscope/apiv1/doc\.go$
+        - ^monitoring/metricsscope/apiv1/gapic_metadata\.json$
+        - ^monitoring/metricsscope/apiv1/helpers\.go$
+        - ^monitoring/metricsscope/apiv1/metricsscopepb/.*$
