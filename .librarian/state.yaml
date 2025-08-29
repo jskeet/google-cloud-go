@@ -5618,3 +5618,37 @@ libraries:
         - ^bigquery/v2/apiv2/gapic_metadata\.json$
         - ^bigquery/v2/apiv2/helpers\.go$
         - ^bigquery/v2/apiv2/bigquerypb/.*$
+    - id: cloudbuild
+      version: 1.23.0
+      last_generated_commit: ""
+      apis:
+        - path: google/devtools/cloudbuild/v1
+          service_config: ""
+        - path: google/devtools/cloudbuild/v2
+          service_config: ""
+      source_roots:
+        - cloudbuild
+        - internal/generated/snippets/cloudbuild
+      preserve_regex: []
+      remove_regex:
+        - ^cloudbuild/go\.mod$
+        - ^cloudbuild/go\.sum$
+        - ^internal/generated/snippets/cloudbuild/
+        - ^cloudbuild/apiv1/[^/]*_client\.go$
+        - ^cloudbuild/apiv1/[^/]*_client_example_go123_test\.go$
+        - ^cloudbuild/apiv1/[^/]*_client_example_test\.go$
+        - ^cloudbuild/apiv1/auxiliary\.go$
+        - ^cloudbuild/apiv1/auxiliary_go123\.go$
+        - ^cloudbuild/apiv1/doc\.go$
+        - ^cloudbuild/apiv1/gapic_metadata\.json$
+        - ^cloudbuild/apiv1/helpers\.go$
+        - ^cloudbuild/apiv1/cloudbuildpb/.*$
+        - ^cloudbuild/apiv2/[^/]*_client\.go$
+        - ^cloudbuild/apiv2/[^/]*_client_example_go123_test\.go$
+        - ^cloudbuild/apiv2/[^/]*_client_example_test\.go$
+        - ^cloudbuild/apiv2/auxiliary\.go$
+        - ^cloudbuild/apiv2/auxiliary_go123\.go$
+        - ^cloudbuild/apiv2/doc\.go$
+        - ^cloudbuild/apiv2/gapic_metadata\.json$
+        - ^cloudbuild/apiv2/helpers\.go$
+        - ^cloudbuild/apiv2/cloudbuildpb/.*$
