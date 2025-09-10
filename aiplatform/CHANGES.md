@@ -1,6 +1,12 @@
 # Changes
 
 
+### 1.101.0 (2025-09-10)
+
+#### Features
+
+* 
+
 ## [1.100.0](https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.99.0...aiplatform/v1.100.0) (2025-09-04)
 
 
