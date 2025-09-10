@@ -1,5 +1,7 @@
 # Vertex AI API
 
+This is Vertex.
+
 [![Go Reference](https://pkg.go.dev/badge/cloud.google.com/go/aiplatform.svg)](https://pkg.go.dev/cloud.google.com/go/aiplatform)
 
 Go Client Library for Vertex AI API.
